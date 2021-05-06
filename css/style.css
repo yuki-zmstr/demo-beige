@@ -15,7 +15,6 @@ min-width: fit-content;
   position: fixed;
   top: 50%;
   left: 50%;
-  /* bring your own prefixes */
   transform: translate(-50%, -50%);
 }
 
@@ -23,6 +22,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+#welcome {
+  background-image: url(../img/bg.jpg);
+  background-size: 100%;
+  background-position-y: 50%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+}
+
+#welcome p{
+  text-align:center;
+  font-size: xx-large;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#content {
+  position: absolute;
+  font-size: large;
+  top: 100%;
+  width: 70%
+}
+
 /* The sidebar menu */
 .sidenav {
   height: 95%; /* Full-height: remove this if you want "auto" height */
@@ -42,34 +69,6 @@ img {
   margin: 1%;
 }
 
-/* The navigation menu links */
-.sidenav a {
-  padding: 4px 0 4px 0;
-  text-decoration: none;
-  font-size:85%;
-  color: #D1C1C1;
-  display: block;
-  text-align: right;
-  padding-right: 15%;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-/* Style page content */
-.main {
-  margin-left: 160px; /* Same as the width of the sidebar */
-  padding: 0px 10px;
-}
-
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 12px;}
-}
-
 .row-navbar {
   padding: 10px 10px 10px 10px;
   text-align: center;
@@ -81,36 +80,90 @@ font-size: smaller;
 padding-top: 10%;
 }
 
-.jp-page a{
-  text-align: center;
-  padding: 20% 0 20% 0;
-  color: #000000;
+.choices {
+  clear:both;
 }
 
+.choices a {
+  text-align: right;
+  width: 80%;
+  padding: 0 0 0 0;
+  text-decoration: none;
+  font-size:small;
+  color: #D1C1C1;
+  display: block;
+  float:right;
+  margin-right: 10%;
+  margin-bottom: 5%;
+}
+
+.choices a:hover {
+  color: #f1f1f1;
+  border-left: 2px solid #f1f1f1;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 12px;}
+}
+
+.jp-page{
+  clear:both;
+  width:fit-content;
+  position:relative;
+  margin: auto;
+  padding-top: 20%;
+}
+
+.jp-page a{
+  text-align: center;
+  color: #000000;
+  text-decoration: none;
+}
+.jp-page a:hover {
+  color: #f1f1f1;
+}
 
 .subheading {
-  text-align:center;
+  text-align:left;
   font-weight: bold;
   position: relative;
   padding: 20px;
+  margin-bottom: 5%;
 }
 
 .subheading hr {
   height: 5px;
   width: 140px;
   position: absolute;
-  left: 50%;
-  margin-left: -70px;
+  left: 1.5%;
+  margin-left: 0;
   top: 100%;
   margin-top: -10px;
   color: rgb(13, 226, 77);
 }
 
-
-.aboutme {
-  font-size: large;
+/* About me section */
+#about {
+  margin-top: 10%;
 }
 
+#about-first-para, #about-second-para {
+  padding-bottom: 15%;
+}
+
+/* Hobbies section */
+#hobbies-first-para, #hobbies-second-para {
+  padding-bottom: 15%;
+}
+
+/* First Quote */
+#first-quote{
+  font-size: x-large;
+}
+
+/* Contact Section */
 #contact {
   left: 100%;
   width: 50%;

@@ -20,44 +20,44 @@
         <script src="https://kit.fontawesome.com/e19efbd276.js" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
         <link rel="stylesheet" href="css/style.css">
-        <!-- <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/queries.css"> -->
-            
-        
-        <!-- <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet"> -->
+
         <title>Yukihide Takahashi</title>
         
     </head>
     <body>
         <img src="img/logo.gif" id="logo">
         <div class="row" id="main">
-            <!-- <img src="img/bg.jpg" id="bg"> -->
+            <div class="row" id="welcome">
+                <p>Welcome<br>
+                こんにちは<br>
+                你好<br></p>
+            </div>
             <div>
                 <nav class="sidenav">
                     <div class="row-navbar">
                         <img src="img/pp.png"> 
                         <p>Sophomore at National University of Singapore.<br>Open-Minded; Open-Ended.</p>
                     </div>
-                    <a class="nav-link" href="#about">About Me</a>
-                    <a class="nav-link" href="#hobbies">Hobbies</a>
-                    <a class="nav-link" href="#projects">Projects</a>
-                    <a class="nav-link" href="#bubble">Yuki's Thought Bubble</a>
-                    <a class="nav-link" href="#contact">Get in Touch</a>
-                    
+                    <div class="choices">
+                        <a class="nav-link float-right" href="#welcome">Welcome</a>
+                        <a class="nav-link float-right" href="#about">About Me</a>
+                        <a class="nav-link float-right" href="#hobbies">Hobbies</a>
+                        <a class="nav-link float-right" href="#projects">Projects</a>
+                        <a class="nav-link float-right" href="#bubble">Thought Bubble</a>
+                        <a class="nav-link float-right" href="#contact">Get in Touch</a>
+                    </div>
                     <div class="jp-page">
                         <a href="https://yuki-zmstr.github.io/jp">日本語ページへ</a>
                     </div>
                 </nav>
             </div>
             <div class="col offset-md-2" id="content">
-                <section class="container aboutme" id="about">
+                <section class="container" id="about">
                     <div class="row">
-                        <h2 class="subheading">
+                        <h2 class="subheading" id="about-hd">
                             About Me<hr> 
                         </h2>
-                        
-                        <div class="container-sm">
+                        <div class="container-sm" id="about-first-para">
                             <div class="row">
                                 <div class="col-2">
                                     <img src="img/7.jpg"> <!--first picture-->
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="container-sm">
+                        <div class="container-sm" id="about-second-para">
                             <div class="row">
                                 <div class="col">
                                     <p>Think, plan, execute, reflect. I learn best through this iterative process. Being an active learner, I am open to various kinds of work experience where I can hone both hard and soft skills.<br>
@@ -83,33 +83,34 @@
                     </div>
                 </section>
         
-                <div class="container">
+                <!-- <div class="container">
                     <div class="d-flex justify-content-center">
-                        <img src="....."> <!--nice picture-->
+                        <img src="....."> 
                     </div>
                     <div class="d-flex justify-content-center">
-                        <p>A compass I bought in a craftsmens workshop in Akihabara, Tokyo.</p> <!--caption-->
+                        <p>A compass I bought in a craftsmens workshop in Akihabara, Tokyo.</p> 
                     </div>
-                </div>
+                </div> -->
         
                 <section class="container" id="hobbies">
                     <div class="row">
-                        <h2 class="subheading">Hobbies<hr></h2>
+                        <h2 class="subheading" id="hobbies-hd">
+                            Hobbies<hr></h2>
                     </div>
                     <div class="container">
-                        <div class="row">
+                        <div class="row" id="hobbies-first-para">
                             <div class="col">
-                                <h6>Volleyball</h6>
-                                <p>Been in love with this sport for 10 years now. Was an great honour to play team captain in high school.<br>
+                                <h3>Volleyball</h3>
+                                <p>Been in love with this sport for 10 years now. Was a great honour to play team captain in high school.<br>
                                 This sport brought me lots, from great people, great vibes, and a motivation to stay fit.</p>
                             </div>
                             <div class="col-2">
                                 <img src="img/7.jpg"> <!--vball picture-->
                             </div>
                         </div>
-                        <div class="row">
+                        <div class="row" id="hobbies-second-para">
                             <div class="col">
-                                <h6>Adventure</h6>
+                                <h3>Adventure</h3>
                                 <p>I love to explore new sceneries. Not just for the photo ops, but also the process of overcoming challenges along the way.
                                     This photo was taken from Mount. Kumodori in Tokyo, standing 2000m high. It was fascinating to find out how the body reacts at an atmospheric oxygen concentration of 80%</p>
                             </div>
@@ -119,7 +120,7 @@
                         </div>
                     </div>
 
-                <div class="container">
+                <div class="container" id="first-quote">
                     <div class="d-flex justify-content-center">
                         <p>The human brain is made to learn. Feed it the experience it needs.</p> <!--quote-->
                     </div>
