@@ -1,6 +1,22 @@
+#main {
+  visibility: hidden;
+}
+
 body {
-  font-family: Garamond, serif;
-  width: 90%;
+font-family: Garamond, serif;
+width: 90%;
+min-width: fit-content;
+
+}
+
+#logo {
+  width:20%;
+  height:auto;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
 }
 
 img {
@@ -70,7 +86,6 @@ padding-top: 10%;
   padding: 20% 0 20% 0;
   color: #000000;
 }
-
 
 
 .subheading {
