@@ -1,67 +1,82 @@
-#main {
-  visibility: hidden;
+html, body {
+  width: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 body {
-font-family: Garamond, serif;
-width: 90%;
-min-width: fit-content;
+  font-family: 'Fira Sans Condensed', sans-serif;
+  background-color: rgb(249, 248, 255);
+  text-rendering: optimizeLegibility;
+  }
+  
+/* only for hiding the main content at the start */
+/* #main {
+  visibility: hidden;
+} */
 
+.para {
+  line-height: 150%;
 }
 
 #logo {
   width:20%;
   height:auto;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 #welcome {
-  background-image: url(../img/bg.jpg);
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: linear-gradient(0deg, rgba(0, 0, 218, 0.2), rgba(0, 0, 218, 0.2)), url(../img/bg.jpg) ;
   background-size: 100%;
   background-position-y: 50%;
-  position: absolute;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  left: 0px;
 }
 
 #welcome p{
   text-align:center;
   font-size: xx-large;
   position: absolute;
+  color:paleturquoise;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  /* background-color: wheat; */
 }
 
 #content {
   position: absolute;
   font-size: large;
   top: 100%;
-  width: 70%
+  width: 90%;
+  /* background-color: blueviolet; */
+  padding-right: 10%;
 }
 
-/* The sidebar menu */
 .sidenav {
-  height: 95%; /* Full-height: remove this if you want "auto" height */
+  height: 90%; /* Full-height: remove this if you want "auto" height */
   width: 11%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
-  top: 0; /* Stay at the top */
+  top: 2%; /* Stay at the top */
   left: 0;
-  background-color: #69958C;
+  background-color: #1AFFD5;
   overflow-x: hidden; /* Disable horizontal scroll */
-  padding-top: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 0.1%;
+  /* font-family: Arial, Helvetica, sans-serif; */
   border-top-left-radius:30px;
   border-bottom-left-radius:30px;
   border-bottom-right-radius:30px; 
@@ -69,22 +84,38 @@ img {
   margin: 1%;
 }
 
+.sidenav img{
+  width: 80%;
+}
+
 .row-navbar {
-  padding: 10px 10px 10px 10px;
+  padding: 2% 2% 0px 2% ;
   text-align: center;
+  background-color: yellow;
 }
 
 .row-navbar p {
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: smaller;
-padding-top: 10%;
+/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+font-size: x-small;
+padding-top: 5%;
+background-color: violet;
 }
 
-.choices {
+/* #choices {
   clear:both;
+  background-color:darkblue;
+  padding-right:0%
+} */
+
+#choices .btn6 {
+  font-size: smaller;
+  padding:2% 10%;
+  margin: 0% 0%;
+  color:hsl(281, 100%, 75%);
+  text-transform:none
 }
 
-.choices a {
+/* #choices a {
   text-align: right;
   width: 80%;
   padding: 0 0 0 0;
@@ -95,34 +126,30 @@ padding-top: 10%;
   float:right;
   margin-right: 10%;
   margin-bottom: 5%;
-}
+  background-color:tomato
+} */
 
-.choices a:hover {
+/* #choices a:hover {
   color: #f1f1f1;
   border-left: 2px solid #f1f1f1;
-}
+} */
 
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 12px;}
-}
-
-.jp-page{
+#jp-page{
   clear:both;
-  width:fit-content;
+  width:90%;
   position:relative;
-  margin: auto;
-  padding-top: 20%;
+  margin:auto;
+  padding-top: 15%;
+  /* background-color: yellowgreen; */
 }
 
-.jp-page a{
-  text-align: center;
-  color: #000000;
-  text-decoration: none;
-}
-.jp-page a:hover {
-  color: #f1f1f1;
+#jp-page .btn6 {
+  font-size: small;
+  font-family: 'Shippori Mincho', serif;
+  padding:1%;
+  margin: 0%;
+  color: hsl(281, 100%, 75%);
+  text-transform:none
 }
 
 .subheading {
@@ -147,37 +174,146 @@ padding-top: 10%;
 /* About me section */
 #about {
   margin-top: 10%;
+  /* background-color: yellow; */
 }
 
-#about-first-para, #about-second-para {
+#about-first-para {
   padding-bottom: 15%;
+  padding-right:10%;
+  /* background-color: white; */
+}
+
+#about-second-para {
+  padding-bottom: 15%;
+  padding-left: 5%;
+  /* background-color:wheat; */
 }
 
 /* Hobbies section */
-#hobbies-first-para, #hobbies-second-para {
+#hobbies {
+  /* background-color: beige; */
+}
+
+#hobbies-first-para {
   padding-bottom: 15%;
+  padding-left:5%;
+  /* background-color: yellowgreen; */
+}
+
+#hobbies-second-para {
+  padding-bottom: 15%;
+  padding-left: 5%;
+  /* background-color: thistle; */
 }
 
 /* First Quote */
 #first-quote{
   font-size: x-large;
+  padding:20% 0%;
+  /* background-color: lightgreen */
+
 }
 
-/* Contact Section */
+/* Projects */
+#projects {
+  /* background-color: lightcoral; */
+}
+
+.project-box {
+  /* background-color: lightyellow; */
+  border: 2px solid red;
+  position: relative;
+  padding: 0% 10%
+}
+
+.project-box h3{
+  background-color: rgb(249, 248, 255);
+  /* Same as background */
+  font-size: x-large;
+  width: 90%;
+  position: absolute;
+  left:50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.project-box img{
+  top: 20%;
+  transform: translate(50%, 50%);
+}
+.project-box p{
+  font-size: medium;
+  text-align: center;
+  padding-top: 10%;
+  /* background-color: yellowgreen; */
+  position: relative;
+  padding-bottom: 20%
+}
+.project-box .proj-icons{
+  clear: both;
+  position: absolute;
+  left:50%;
+  transform: translate(-50%,-200%);
+  /* background-color: violet; */
+  padding: 0 2%;
+}
+
+#projects span{
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+  /* background-color: teal; */
+  padding: 10% 0% 20% 0%;
+}
+
+/* Yuki's Thought Bubble */
+#bubble{
+  /* background-color: cornsilk; */
+  padding-bottom: 20%;
+}
+
+#bubble h4{
+  /* background-color: darkgrey; */
+  padding-bottom: 8%;
+}
+
+#bubble .bubble-box{
+  width: 60%;
+  margin: auto;
+  /* background-color: pink; */
+  margin-bottom: 5%;
+}
+
+#bubble .bubble-box h5{
+  font-weight: 600;
+}
+
+#bubble a{
+  padding: 20% 80%;
+  /* color: #fff; */
+  transform: translate(-20%,-20%);
+}
+
+
+/* Get in touch */
 #contact {
   left: 100%;
   width: 50%;
+  /* background-color:violet; */
+  margin-bottom: 20%;
 }
 
 .contact-form .row {
   padding-bottom: 3%;
+  /* background-color: rgb(249, 248, 255); */
 }
 
 .contact-form .message {
-  padding-bottom: 15%;
+  padding-bottom: 20%;
+  /* background-color: salmon; */
+  margin-bottom: 10%;
 }
 
-.span-1-of-3 {
+.span-1-of-2 {
   text-align: center;
 }
 
@@ -196,8 +332,21 @@ padding-top: 10%;
   width: 20%;
 }
 
+
+/* Footer */
 footer {
   margin-top: 10%;
   padding-top: 5%;
-  background-color: aqua;
+  /* background-color: aqua; */
+}
+
+footer a{
+  text-decoration: none;
+}
+
+footer p{
+  /* background-color: white; */
+  text-align: center;
+  font-size: medium;
+  width: auto;
 }
