@@ -8,14 +8,14 @@ html, body {
 
 body {
   font-family: 'Fira Sans Condensed', sans-serif;
-  background-color: rgb(249, 248, 255);
+  /* background-color: rgb(249, 248, 255); */
   text-rendering: optimizeLegibility;
   }
   
 /* only for hiding the main content at the start */
-/* #main {
+#main {
   visibility: hidden;
-} */
+}
 
 .para {
   line-height: 150%;
@@ -37,6 +37,7 @@ body {
   border: 0px;
   padding: 0px;
   position: absolute;
+  z-index: 1;
   top: 0;
   right: 0;
   bottom: 0;
@@ -57,98 +58,99 @@ body {
   /* background-color: wheat; */
 }
 
+.col-9 {
+  padding: 0%;
+  /* background-color: blueviolet; */
+}
+
+#navbar-main {
+  height: 1000px;
+  /* background-color: white; */
+}
+
 #content {
   position: absolute;
   font-size: large;
   top: 100%;
-  width: 90%;
-  /* background-color: blueviolet; */
-  padding-right: 10%;
+  /* background-color: green; */
+  padding-top:10%;
 }
 
 .sidenav {
-  height: 90%; /* Full-height: remove this if you want "auto" height */
-  width: 11%; /* Set the width of the sidebar */
+  height: 200%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
-  z-index: 1; /* Stay on top */
-  top: 2%; /* Stay at the top */
-  left: 0;
-  background-color: #1AFFD5;
-  overflow-x: hidden; /* Disable horizontal scroll */
+  /* z-index: 0; */
+  /* background-color: yellow; */
+  overflow-x: hidden; 
   padding-top: 0.1%;
-  /* font-family: Arial, Helvetica, sans-serif; */
-  border-top-left-radius:30px;
-  border-bottom-left-radius:30px;
-  border-bottom-right-radius:30px; 
-  border-top-right-radius:30px;  
   margin: 1%;
+  font-family: 'Poppins', sans-serif;
 }
 
-.sidenav img{
-  width: 80%;
-}
-
-.row-navbar {
-  padding: 2% 2% 0px 2% ;
+.sidenav p{
+  /* background-color: tomato; */
+  font-weight:600;
+  padding:30% 0%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
   text-align: center;
-  background-color: yellow;
+  color: black;
 }
 
-.row-navbar p {
-/* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
-font-size: x-small;
-padding-top: 5%;
-background-color: violet;
-}
 
-/* #choices {
+#choices {
   clear:both;
-  background-color:darkblue;
-  padding-right:0%
-} */
+  /* background-color:darkblue; */
+  position: absolute;
+  top: 18%
+}
 
 #choices .btn6 {
   font-size: smaller;
-  padding:2% 10%;
+  padding:3% 10%;
   margin: 0% 0%;
-  color:hsl(281, 100%, 75%);
+  color: black;
   text-transform:none
 }
 
-/* #choices a {
-  text-align: right;
-  width: 80%;
-  padding: 0 0 0 0;
-  text-decoration: none;
-  font-size:small;
-  color: #D1C1C1;
-  display: block;
-  float:right;
-  margin-right: 10%;
-  margin-bottom: 5%;
-  background-color:tomato
-} */
-
-/* #choices a:hover {
-  color: #f1f1f1;
-  border-left: 2px solid #f1f1f1;
-} */
-
-#jp-page{
-  clear:both;
-  width:90%;
-  position:relative;
-  margin:auto;
-  padding-top: 15%;
-  /* background-color: yellowgreen; */
+.sidenav-dummy {
+  height: 200%; /* Full-height: remove this if you want "auto" height */
+  width: 20%; /* Set the width of the sidebar */
+  /* z-index: 0; */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  left: 0;
+  /* background-color: yellow; */
+  overflow-x: hidden; 
+  padding-top: 0.1%;
+  margin: 1%;
+  font-family: 'Poppins', sans-serif;
 }
 
-#jp-page .btn6 {
-  font-size: small;
-  font-family: 'Shippori Mincho', serif;
-  padding:1%;
-  margin: 0%;
-  color: hsl(281, 100%, 75%);
+.sidenav-dummy p{
+  /* background-color: tomato; */
+  padding:30% 0%;
+  position: absolute;
+  font-weight:600;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color:white
+}
+
+#choices-dummy {
+  clear:both;
+  /* background-color:darkblue; */
+  position: absolute;
+  top: 18%
+}
+
+#choices-dummy .btn6 {
+  font-size: smaller;
+  padding:3% 10%;
+  margin: 0% 0%;
+  color: white;
   text-transform:none
 }
 
@@ -183,16 +185,31 @@ background-color: violet;
   /* background-color: white; */
 }
 
+#about-first-para img {
+  width: 50%;
+  transform: translate(50%);
+  margin-bottom: 5%;
+}
+
+#about-first-para p{
+  width: 90%;
+  padding-left: 10%;
+}
+
 #about-second-para {
   padding-bottom: 15%;
-  padding-left: 5%;
-  /* background-color:wheat; */
+  padding-right:10%;
+  /* background-color: wheat; */
+}
+#about-second-para p{
+  width: 90%;
+  padding-left: 10%;
 }
 
 /* Hobbies section */
-#hobbies {
-  /* background-color: beige; */
-}
+/* #hobbies {
+  background-color: beige;
+} */
 
 #hobbies-first-para {
   padding-bottom: 15%;
@@ -215,9 +232,9 @@ background-color: violet;
 }
 
 /* Projects */
-#projects {
-  /* background-color: lightcoral; */
-}
+/* #projects {
+  background-color: lightcoral;
+} */
 
 .project-box {
   /* background-color: lightyellow; */
@@ -227,7 +244,7 @@ background-color: violet;
 }
 
 .project-box h3{
-  background-color: rgb(249, 248, 255);
+  /* background-color: rgb(249, 248, 255); */
   /* Same as background */
   font-size: x-large;
   width: 90%;
@@ -296,33 +313,35 @@ background-color: violet;
 
 /* Get in touch */
 #contact {
-  left: 100%;
-  width: 50%;
   /* background-color:violet; */
-  margin-bottom: 20%;
+  margin-bottom: 20%
 }
 
-.contact-form .row {
-  padding-bottom: 3%;
-  /* background-color: rgb(249, 248, 255); */
+.contactcolumn{
+  /* background-color: sienna; */
+  margin: 0px;
+  padding: 0px;
 }
 
-.contact-form .message {
-  padding-bottom: 20%;
-  /* background-color: salmon; */
-  margin-bottom: 10%;
+.contactcolumn p{
+  /* background-color: yellow; */
+  margin-bottom: 0%;
+  margin-top: 10%;
 }
 
-.span-1-of-2 {
-  text-align: center;
+.contactcolumn input{
+  /* background-color: wheat; */
+  width: 100%;
+  padding:0px;
+  margin: 0px;
 }
 
-#name, #email, #message {
-  width: 150%;
-}
-
-#message {
-  height: 190%;
+#message{
+  height: 78%;
+  /* background-color: wheat; */
+  width: 100%;
+  padding:0px;
+  margin: 0px;
 }
 
 #submitbutton {
@@ -331,7 +350,6 @@ background-color: violet;
   margin-right: auto;
   width: 20%;
 }
-
 
 /* Footer */
 footer {
