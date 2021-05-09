@@ -1,4 +1,3 @@
-
 var wh = $(window).height();
 var ww = $(window).width();
 

@@ -343,7 +343,7 @@ transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
 
 
 .btn10:hover{
-    border: 1px solid #071982;
+    border: 1px solid lightskyblue;
     color: #80ffd3!important;
 }
 .btn10::before {
@@ -351,7 +351,7 @@ transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
     width: 0%;
     height: 100%;
     display: block;
-    background: #071982;
+    background: lightskyblue;
     position: absolute;
     -ms-transform: skewX(-20deg);
     -webkit-transform: skewX(-20deg); 

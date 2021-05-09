@@ -1,8 +1,5 @@
 html, body {
   width: 100%;
-  margin: 0px;
-  border: 0px;
-  padding: 0px;
   overflow-x: hidden;
   background-color: rgb(246, 255, 248);
 }
@@ -10,16 +7,12 @@ html, body {
 body {
   font-family: 'Fira Sans Condensed', sans-serif;
   /* background-color: rgb(249, 248, 255); */
-  text-rendering: optimizeLegibility;
   }
   
 /* only for hiding the main content at the start */
 #main {
-  visibility: hidden;
-}
-
-.para {
-  line-height: 170%;
+  visibility: true;
+  margin: 0%
 }
 
 #logo {
@@ -65,6 +58,7 @@ body {
   /* background-color: blueviolet; */
 }
 
+
 #navbar-main {
   height: 1000px;
   /* background-color: white; */
@@ -72,7 +66,9 @@ body {
 
 #content {
   position: absolute;
-  font-size: large;
+  font-size: 1.4em;
+  letter-spacing: 0.01em;
+  line-height: 150%;
   top: 100%;
   /* background-color: green; */
   padding-top:10%;
@@ -92,7 +88,7 @@ body {
 
 .sidenav p{
   /* background-color: tomato; */
-  font-size: 1.1em;
+  font-size: 1.4em;
   font-weight:600;
   padding:30% 0%;
   /* position: absolute; */
@@ -122,7 +118,7 @@ nav li span {
   /* background-color: beige; */
   width:auto;
   color:black;
-  font-size: small;
+  font-size: 1em;
   display: inline-block;
   line-height: 3em;
   text-align: center;
@@ -160,20 +156,10 @@ nav li span:hover:after {
   text-align:left;
   font-weight: bold;
   position: relative;
-  padding: 20px;
+  padding: 0% 10%;
   margin-bottom: 5%;
 }
 
-.subheading hr {
-  height: 5px;
-  width: 140px;
-  position: absolute;
-  left: 1.5%;
-  margin-left: 0;
-  top: 100%;
-  margin-top: -10px;
-  color: rgb(13, 226, 77);
-}
 
 /* About me section */
 #about {
@@ -186,57 +172,37 @@ nav li span:hover:after {
   margin-bottom: 8%;
 }
 
-#about-first-para {
+.about-para {
   padding-bottom: 15%;
-  padding-right:10%;
+  /* background-color: red; */
   /* background-color: yellow; */
 }
 
-/* #about-first-para img {
-  width: 50%;
-  transform: translate(50%);
-  margin-bottom: 8%;
-} */
-
-#about-first-para p{
-  width: 90%;
-  padding-left: 10.5%;
-}
-
-#about-second-para {
-  padding-bottom: 15%;
-  padding-right:10%;
-  /* background-color: wheat; */
-}
-#about-second-para p{
-  width: 90%;
-  padding-left: 10.5%;
+.about-para p{
+  /* background-color: lightskyblue; */
+  width: 100%;
+  padding: 0% 20%;
 }
 
 /* Hobbies section */
 /* #hobbies {
-  background-color: beige;
+  background-color: blue;
 } */
 
 #hobbies h3{
   margin-bottom: 3%;
 }
 
-#hobbies-first-para {
+.hobbies-para {
   padding-bottom: 15%;
-  padding-left:10.5%;
-  padding-right:10%
   /* background-color: yellowgreen; */
 }
-
-#hobbies-second-para {
-  padding-bottom: 10%;
-  padding-left: 10.5%;
-  padding-right: 10%;
-  /* background-color: thistle; */
+.hobbies-para p, .hobbies-para h3{
+  width: 100%;
+  padding: 0% 20%;
 }
 
-#hobbies-second-para img{
+.hobbies-para img{
   width: 60%;
   margin:auto;
   margin-top: 3%;
@@ -275,16 +241,20 @@ nav li span:hover:after {
   text-align: center;
   transform: translate(-50%, -50%);
 }
+.project-box .container{
+  /* border: 2px solid purple; */
+  margin:15% 0;
+  width:100%;
+  padding:0
+}
 .project-box img{
+  max-width: 100%;
   margin: auto;
-  padding-top: 10%;
-  height:13em;
   display: block;
 }
 .project-box p{
-  font-size: medium;
+  font-size: 0.9em;
   text-align: center;
-  padding-top: 10%;
   /* background-color: yellowgreen; */
   position: relative;
 }
@@ -296,14 +266,14 @@ nav li span:hover:after {
 }
 
 .project-box i{
-  font-size: 1.3em;
   padding:0% 5% 5% 5%;
   color: black;
+  font-size: 1.5em;
 }
 
 #projects span{
   text-align: center;
-  font-size: x-large;
+  font-size: 1.5em;
   font-weight: 800;
   /* background-color: teal; */
   padding: 10% 0% 20% 0%;
@@ -311,20 +281,24 @@ nav li span:hover:after {
 
 /* Yuki's Thought Bubble */
 #bubble{
-  /* background-color: cornsilk; */
+  background-color: cornsilk;
   padding-bottom: 20%;
 }
 
-#bubble h4{
-  /* background-color: darkgrey; */
-  padding: 0% 10% 8% 10%;
+#bubble-intro{
+  padding: 10% 15% 10% 15%;
+  background-color: red;
   font-size: 1.1em;
 }
 
+#bubble-intro p{
+  width: 100%;
+}
+
 #bubble .bubble-box{
-  width: 70%;
-  margin: auto;
-  /* background-color: pink; */
+  width:auto;
+  margin: 0% 25%;
+  background-color: pink;
   margin-bottom: 5%;
 }
 
@@ -334,7 +308,6 @@ nav li span:hover:after {
 
 #bubble a{
   padding: 10% 55%;
-  /* color: #fff; */
   transform: translate(-20%,-20%);
   color:black;
   border: 2px solid pink;
@@ -385,43 +358,6 @@ nav li span:hover:after {
   color: rgb(87, 87, 255)
 }
 
-.contactcolumn{
-  /* background-color: sienna; */
-  margin: 5% 5% 0% 0%;
-  padding: 0px;
-}
-
-.contactcolumn p{
-  /* background-color: yellow; */
-  margin: 0% 0% 0% 0%;
-}
-
-.contactcolumn input{
-  /* background-color: wheat; */
-  width: 100%;
-  margin: 0% 0% 10% 0%;
-  border: 0.1em solid lightgrey;
-}
-
-#message{
-  height: 78%;
-  /* background-color: wheat; */
-  width: 100%;
-  padding:0px;
-  margin: 0px;
-  border: 0.1em solid lightgrey;
-}
-
-#sendbutton {
-  padding: 1% 7%;
-  margin: 0% 40%;
-  display: flex;
-  justify-content: center;
-  border: 0.1em solid lightgrey;
-  color: black
-  
-}
-
 /* Footer */
 footer {
   margin-top: 15%;
@@ -429,21 +365,18 @@ footer {
   /* background-color: aqua; */
 }
 
-
 .btn7 {
   padding: 2% 0%;
   text-transform: none;
-  font-size: 1.1em;
+  font-size: 1em;
   font-family:'Fira Sans Condensed', sans-serif;
   margin:auto;
-  width: 25%;
+  width: 20%;
   color:black;
   box-shadow: inset 000px 100px 0px 0px lightgray;
 -webkit-transition: all 0.6s cubic-bezier(.9, .24, .40, 1);
 transition: all 0.6s cubic-bezier(.9, .24, .40, 1)
 }
-
-
 
 .btn7:hover::before {
   opacity: 1;
@@ -461,15 +394,3 @@ footer p{
   font-size: medium;
   width: auto;
 }
-
-/* .js-appear{
-  -webkit-transform: translate3d(0 25px,0);
-  transform: translate3d(0,25px,0);
-  opacity: 0;
-}
-
-.on {
-  -webkit-transform: translate3d(0 0,0);
-  transform: translate3d(0,0,0);
-  opacity: 1;
-} */

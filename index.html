@@ -34,18 +34,18 @@
         <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;800&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
 
-        <!-- media queries -->
-        <link rel="stylesheet" href="css/queries.css">
-
         <!-- buttons -->
         <link rel="stylesheet" href="css/buttons.css">
 
         <!-- custom styling -->
         <link rel="stylesheet" href="css/style.css">
 
+        <!-- media queries -->
+        <link rel="stylesheet" href="css/queries.css">
+
         <!-- animations -->
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+        <!-- <script src="js/script.js"></script> -->
         
         
 
@@ -95,14 +95,14 @@
                                         <img class="sc" src="img/pp.png"> <!--first picture-->
                                     </div>
                                     <!-- <div class="container-sm sc" id="about-first-para"> -->
-                                    <div class="row sc" id="about-first-para">
+                                    <div class="row about-para sc">
                                         <p>Hi there! My name is Yukihide.</p>
                                         <p>I am a Singapore-Japan mix currently studying in the National University of Singapore, pursuing a Bachelor of Engineering in Industrial and Systems Engineering.</p>
                                         <p>I spent my years growing up in three different countries - Singapore, Taiwan, and Japan, each for about six years. After serving National Service in Singapore for two years, I matriculated to NUS in August 2020.</p>
                                     </div>
                                     <!-- </div> -->
                                     <!-- <div class="container-sm sc" id="about-second-para"> -->
-                                    <div class="row sc" id="about-second-para">
+                                    <div class="row about-para sc">
                                         <p>Think, plan, execute, reflect. I learn best through this iterative process. Being an active learner, I am open to various kinds of experiences where I can hone both hard and soft skills.</p>
                                         <p>Recently, I have been exploring the field of Machine Learning. I have implemented and tested a few regression, classification, and ANN models myself, and I hope to learn more about the potentials of data.</p>
                                         <p>Feel free to reach out!</p>
@@ -115,21 +115,16 @@
                                     <h2 class="subheading sc" id="hobbies-hd">
                                         02&nbsp;&nbsp;&nbsp;&nbsp;Hobbies
                                     </h2>
-                                    <div class="container-sm sc" id="hobbies-first-para">
-                                        <div class="row">
-                                            <h3>Volleyball</h3>
-                                            <p>10 years since I first touched a volleyball - now I'm deeply in love with the sport. It brought me many things, from great people, to great vibes, and a motivation to stay fit.</p>
-                                            <p>It was also a great honour to play team captain in high school.</p>
-                                            <!-- <img src="img/7.jpg"> second picture -->
-                                        </div>
+                                    <div class="row hobbies-para sc">
+                                        <h3>Volleyball</h3>
+                                        <p>10 years since I first touched a volleyball - now I'm deeply in love with the sport. It brought me many things, from great people, to great vibes, and a motivation to stay fit.</p>
+                                        <p>It was also a great honour to play team captain in high school.</p>
                                     </div>
-                                    <div class="container-sm sc" id="hobbies-second-para">
-                                        <div class="row">
-                                            <h3>Adventure</h3>
-                                            <p>I love to explore new sceneries. Not just for the photo ops, but also the process of overcoming physical and mental challenges along the way.</p>
-                                            <p>This photo was taken from Mount. Kumodori in Tokyo, standing 2017 meters high. It was fascinating to find out how the body reacts when the atmospheric oxygen concentration reaches 80% of what we usually breathe.</p>
-                                            <img src="img/kumo.jpg">
-                                        </div>
+                                    <div class="row hobbies-para sc">
+                                        <h3>Adventure</h3>
+                                        <p>I love to explore new sceneries. Not just for the photo ops, but also the process of overcoming physical and mental challenges along the way.</p>
+                                        <p>This photo was taken from Mount. Kumodori in Tokyo, standing 2017 meters high. It was fascinating to find out how the body reacts when the atmospheric oxygen concentration reaches 80% of what we usually breathe.</p>
+                                        <img src="img/kumo.jpg">
                                     </div>
                                 </div>
                             </section>    
@@ -150,12 +145,14 @@
                                     <div class="col">
                                         <div class="project-box">
                                             <h3>Performance Tracking System</h3>
-                                            <img src="img/NS.PNG">
+                                            <div class="container">
+                                                <img src="img/NS.PNG">
+                                            </div>
                                             <div>
                                                 <p>Tracks processed outputs; developed at an E-commerce startup. Provided supervisors on the ground with vizualization of live progress.</p>
                                                 <div class="proj-icons">
                                                     <i class="fab fa-python"></i>
-                                                    <i class="fab fa-google-drive fa-2x"></i>
+                                                    <i class="fab fa-google-drive"></i>
                                                 </div>
                                             </div>  
                                         </div>
@@ -163,9 +160,11 @@
                                     <div class="col">
                                         <div class="project-box">
                                             <h3>Resource Distribution Tool</h3>
-                                            <img src="img/IE1111R.PNG">
+                                            <div class="container">
+                                                <img src="img/IE1111R.PNG">
+                                            </div>
                                             <div>
-                                                <p>Outputs optimal resource distribution in a post-disaster scenario. As part of NUS module, IE1111R (Industrial & Systems Engineering Principles & Practice I).</p>
+                                                <p>Outputs optimal resource distribution in a post-disaster scenario. Developed for NUS module, IE1111R (Industrial & Systems Engineering Principles & Practice I).</p>
                                                 <div class="proj-icons">
                                                     <i class="fas fa-file-excel"></i>
                                                 </div>
@@ -176,7 +175,9 @@
                                     <div class="col">
                                         <div class="project-box">
                                             <h3>Image Processing Tool</h3>
-                                            <img src="img/frame.jpg">
+                                            <div class="container">
+                                                <img src="img/frame.jpg">
+                                            </div>
                                             <div>
                                                 <p>A simple script that modifies images. The logo you saw at the start was processed using this script:)</p>
                                                 <div class="proj-icons">
@@ -196,11 +197,13 @@
                                 <div class="row">
                                     <h2 class="subheading sc">04&nbsp;&nbsp;&nbsp;&nbsp;Yuki's Thought Bubble</h2>
                                 </div>
-                                <h4 class="para sc">I think to myself a lot...Here're my recent ponders, made specially for you die-hard fans.</h4>
+                                <div class="row sc" id="bubble-intro">
+                                    <p>I think to myself a lot...Here're my recent ponders, made specially for you die-hard fans.</p>
+                                </div>
                                 <div class="row bubble-box sc">
                                     <h5>But patience is key</h5>
                                     <div class="row">
-                                        <div class="col para">
+                                        <div class="col">
                                             <p>Isn't it?</p>
                                         </div>
                                         <div class="col-2">
@@ -212,7 +215,7 @@
                                 <!-- <div class="row bubble-box">
                                     <h5>Patience is key</h5>
                                     <div class="row">
-                                        <div class="col para">
+                                        <div class="col">
                                             <p>Isn't it?</p>
                                         </div>
                                         <div class="col-2">
@@ -223,7 +226,7 @@
                                 <div class="row bubble-box">
                                     <h5>Patience is key</h5>
                                     <div class="row">
-                                        <div class="col para">
+                                        <div class="col">
                                             <p>Isn't it?</p>
                                         </div>
                                         <div class="col-2">

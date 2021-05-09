@@ -8,48 +8,74 @@
 } */
 
 /* small tablet to big tablet: from 776px to 1023px */
-/* @media only screen and (max-width: 1023px) {
-    body { font-size: 18px; }
-    section { padding: 60px 0; }
-    .long-copy {
-        width: 80%;
-        margin-left: 10%;
-          
-    }
-    
-    .icon-small { 
-        width: 17px;
-        margin-right: 5px;
-    }
-    .city-feature { font-size: 85%; }
-    .plan-box { 
+@media only screen and (max-width: 1023px) {
+    body { font-size: 0.9em; }
+    .subheading {
+        text-align:left;
+        font-weight: bold;
+        position: relative;
+        padding: 0% 5%;
+        margin-bottom: 5%;
+      }
+
+    .about-para p{
+        /* background-color: lightskyblue; */
         width: 100%;
-        margin-left: 0%;
+        padding: 0% 10%;
+      }
+    .hobbies-para p, .hobbies-para h3{
+    width: 100;
+    padding: 0% 10%;
     }
-    
-    .ownmodal-content {
-        width: 90%;
-    }
-    .contact-form { width: 90%; }
-    
-    h3 { font-size: 103%; }
-    
-    .portfolio-box {
-        width: 90%;
-        font-size: 150%
-    }
-
-    .portfolio-box img {
+    .hobbies-para img{
         width: 80%;
-        
+      }
+    #first-quote{
+        text-align: center;
+        font-size: x-large;
+        padding:10% 10% 20% 10%;
+        line-height: 1.3em;
+        /* background-color: lightgreen */
     }
-    
-    .portfolio-box i {
-        padding: 0 5%;
-        
+    .project-box {
+    /* background-color: lightyellow; */
+    margin-top: 5%;
     }
-} */
-
+    .project-box h3{
+    font-size: 1em;
+    width: 90%;
+    }
+    .project-box .container{
+        margin:20% 0 15% 0;
+    }
+    #projects span{
+        font-size: 1.1em;
+    }
+    #bubble-intro{
+        padding: 10% 15% 10% 15%;
+        /* background-color: red; */
+    }
+    #bubble-intro p{
+        font-size: 0.8em;
+    }
+    .bubble-box h5{
+        font-size: 0.9em;
+    }
+    .bubble-box p{
+        font-size: 0.8em;
+    }
+    #bubble a{
+        font-size: 0.5em;
+    }
+    #contact h4{
+        font-size: 0.9em;
+    }
+    #contact .item{
+        font-size: 0.9em;
+    }
+    .btn7 {
+        font-size: 0.8em;
+    }
 /* small phones to small tablets: from 481px to 775px */
 /* @media only screen and (max-width: 775px) {
     body { font-size: 16px; }
