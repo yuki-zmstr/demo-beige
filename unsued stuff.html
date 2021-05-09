@@ -78,46 +78,104 @@ opacity: 1;
 <!-- old form -->
 
 <!-- <div class="row">
-                                                <div class="col span-1-of-2">
-                                                    <label for="name">Name</label>
-                                                </div>
-                                                <div class="col span-2-of-2">
-                                                    <input type="text" name="name" id="name" placeholder="Your name" required>
-                                                </div>
-                                            </div>
-                                            <div class="row">
-                                                <div class="col span-1-of-2">
-                                                    <label for="email">Email</label>
-                                                </div>
-                                                <div class="col span-2-of-2">
-                                                    <input type="email" name="email" id="email" placeholder="Your email" required>
-                                                </div>
-                                            </div>
-                                            <div class="row message">
-                                                <div class="col span-1-of-2">
-                                                    <label>Message</label>
-                                                </div>
-                                                <div class="col span-2-of-2">
-                                                    <textarea name="message" placeholder="Your message" id="message"></textarea>
-                                                </div>
-                                            </div> -->
+<div class="col span-1-of-2">
+    <label for="name">Name</label>
+</div>
+<div class="col span-2-of-2">
+    <input type="text" name="name" id="name" placeholder="Your name" required>
+</div>
+</div>
+<div class="row">
+<div class="col span-1-of-2">
+    <label for="email">Email</label>
+</div>
+<div class="col span-2-of-2">
+    <input type="email" name="email" id="email" placeholder="Your email" required>
+</div>
+</div>
+<div class="row message">
+<div class="col span-1-of-2">
+    <label>Message</label>
+</div>
+<div class="col span-2-of-2">
+    <textarea name="message" placeholder="Your message" id="message"></textarea>
+</div>
+</div> -->
 
-                                            <!-- underline for heading -->
-                                            .subheading hr {
-                                                height: 5px;
-                                                width: 140px;
-                                                position: absolute;
-                                                left: 1.5%;
-                                                margin-left: 0;
-                                                top: 100%;
-                                                margin-top: -10px;
-                                                color: rgb(13, 226, 77);
-                                              }
-                                              var body = $("html,body");
-                                              var top = body.scrollTop() 
-                                              
-                                              $(function(){
-                                                  if(top!=0){
-                                                      body.animate({scrollTop:0}, '10');
-                                                  }
-                                              });
+<!-- underline for heading -->
+.subheading hr {
+height: 5px;
+width: 140px;
+position: absolute;
+left: 1.5%;
+margin-left: 0;
+top: 100%;
+margin-top: -10px;
+color: rgb(13, 226, 77);
+}
+var body = $("html,body");
+var top = body.scrollTop() 
+
+$(function(){
+    if(top!=0){
+        body.animate({scrollTop:0}, '10');
+    }
+});
+
+
+<!-- dummy side nav -->
+<!-- <nav class="sidenav-dummy">
+<div class="row" id="name">
+    <p>Yukihide<br>Takahashi</p>
+</div>
+<div class="row" id="choices-dummy">
+    <a class="btn6" href="#welcome">Welcome</a>
+    <a class="btn6" href="#about">About Me</a>
+    <a class="btn6" href="#hobbies">Hobbies</a>
+    <a class="btn6" href="#projects">Projects</a>
+    <a class="btn6" href="#bubble">Blog</a>
+    <a class="btn6" href="#contact">Get in touch</a>
+    <a class="btn6" href="https://yuki-zmstr.github.io/jp" target="_blank">日本語ページへ</a>
+</div>
+</nav> -->
+
+<!-- the css -->
+<!-- .sidenav-dummy {
+    height: 200%; /* Full-height: remove this if you want "auto" height */
+    width: 20%; /* Set the width of the sidebar */
+    /* z-index: 0; */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    left: 0;
+    /* background-color: yellow; */
+    overflow-x: hidden; 
+    padding-top: 0.1%;
+    margin: 1%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .sidenav-dummy p{
+    /* background-color: tomato; */
+    padding:30% 0%;
+    position: absolute;
+    font-weight:600;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    color:white
+  }
+  
+  #choices-dummy {
+    clear:both;
+    /* background-color:darkblue; */
+    position: absolute;
+    top: 18%
+  }
+  
+  #choices-dummy .btn6 {
+    font-size: smaller;
+    padding:3% 10%;
+    margin: 0% 0%;
+    color: white;
+    text-transform:none
+  }
+   -->
