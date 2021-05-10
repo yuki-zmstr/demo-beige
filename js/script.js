@@ -40,16 +40,18 @@ $(document).ready(function () {
 
 // each block
 $(window).scroll(function(){
-    var y_scroll_pos = window.pageYOffset;
-    var scroll = $(window).scrollTop();
-    var current_pos = $(this).scrollTop();        
+    var scroll = $(window).scrollTop(); 
+    var footerPos = $("footer").offset().top;       
     $(".sc").each(function(){
         var elemPos = $(this).offset().top;
-        if (scroll > elemPos - wh/1.1){
+        if (scroll > elemPos - wh/1.3){
             $(this).css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0},1000);
         }
+        });
+    if (scroll > footerPos - wh/1.1){
+        $("footer").css({opacity: 0.0, visibility: "visible"}).animate({opacity: 1.0},1000);
+    }
     });
-  });
 
 //   
 

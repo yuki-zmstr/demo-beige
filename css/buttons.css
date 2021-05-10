@@ -342,10 +342,10 @@ transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
 }
 
 
-.btn10:hover{
+/* .btn10:hover{
     border: 1px solid lightskyblue;
     color: #80ffd3!important;
-}
+} */
 .btn10::before {
     content: '';
     width: 0%;
@@ -367,7 +367,7 @@ transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
     box-shadow:2px 0px 14px rgba(0,0,0,.6);
 } 
 
-.btn10::after {
+/* .btn10::after {
     content: '';
     width: 0%;
     height: 100%;
@@ -386,7 +386,7 @@ transition: all .7s cubic-bezier(0.77, 0, 0.175, 1);
     -o-transition: all .4s cubic-bezier(.2,.95,.57,.99);
     transition: all .4s cubic-bezier(.2,.95,.57,.99);
     box-shadow: 2px 0px 14px rgba(0,0,0,.6);
-}
+} */
 .btn10:hover::before, .btn1O:hover::before{
 opacity:1;
 width: 116%;

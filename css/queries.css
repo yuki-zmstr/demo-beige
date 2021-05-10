@@ -1,39 +1,80 @@
-/* big tablet to 1200px */
-/* @media only screen and (max-width: 1200px) {
-    .main-text-box {
-        width: 100%;
-        padding: 0 2%;
+/* desktops, large screens 1200px */
+@media only screen and (max-width: 1200px) {
+    body { 
+        font-size: 1.3em;
     }
-    .row { padding: 0 2%; }
-} */
 
-/* small tablet to big tablet: from 776px to 1023px */
+    .subheading{
+        margin-bottom: 8%;
+    }
+    .about-para p{
+        /* background-color: lightskyblue; */
+        width: 100%;
+        padding: 0% 11%;
+      }
+    .hobbies-para p, .hobbies-para h3{
+    width: 100%;
+    padding: 0% 11%;
+    }
+
+    #first-quote {
+        /* background-color: yellow; */
+        font-size: 1.1em;
+        padding:15% 10% 20% 10%;
+    }
+    .project-box h3{
+        font-size: 1em;
+        width: 90%;
+    }
+    .project-box p{
+        font-size: 0.9em;
+    }
+
+    .project-box i{
+        font-size: 1.3em;
+        padding:0% 5% 5% 5%;
+        color:rgb(197, 128, 0);
+    }
+    #bubble-intro{
+        padding: 6% 15% 12% 15%;
+        /* background-color: red; */
+      }
+    #logo {
+    width:23%;
+    }
+} 
+
+/* small screens, laptops from 769px to 1024px */
 @media only screen and (max-width: 1023px) {
-    body { font-size: 0.9em; }
+    body { 
+        font-size: 1.2em;
+        letter-spacing: 1px;
+     }
     .subheading {
-        text-align:left;
-        font-weight: bold;
-        position: relative;
-        padding: 0% 5%;
-        margin-bottom: 5%;
+        margin-bottom: 8%;
+        }
+    nav li {
+        /* background-color: yellow; */
+        font-size: 0.8em;
       }
 
     .about-para p{
         /* background-color: lightskyblue; */
         width: 100%;
-        padding: 0% 10%;
+        padding: 0% 12%;
       }
     .hobbies-para p, .hobbies-para h3{
-    width: 100;
-    padding: 0% 10%;
+    width: 100%;
+    padding: 0% 12%;
     }
-    .hobbies-para img{
-        width: 80%;
+
+    #hobbies img{
+        width: 70%;
       }
+    
     #first-quote{
         text-align: center;
-        font-size: x-large;
-        padding:10% 10% 20% 10%;
+        padding:20% 10% 20% 10%;
         line-height: 1.3em;
         /* background-color: lightgreen */
     }
@@ -43,7 +84,7 @@
     }
     .project-box h3{
     font-size: 1em;
-    width: 90%;
+    width: 100%;
     }
     .project-box .container{
         margin:20% 0 15% 0;
@@ -55,161 +96,90 @@
         padding: 10% 15% 10% 15%;
         /* background-color: red; */
     }
-    #bubble-intro p{
-        font-size: 0.8em;
+    .bubble-box h4{
+        font-size: 1em;
     }
-    .bubble-box h5{
-        font-size: 0.9em;
-    }
-    .bubble-box p{
-        font-size: 0.8em;
-    }
+    
     #bubble a{
+        padding: 20% 60%;
         font-size: 0.5em;
     }
     #contact h4{
-        font-size: 0.9em;
-    }
-    #contact .item{
-        font-size: 0.9em;
+        font-size: 1.1em;
+        text-align: center;
+        /* background-color: darkgrey; */
+        margin-top: 4%;
+        margin-bottom: 6%;
     }
     .btn7 {
         font-size: 0.8em;
     }
-/* small phones to small tablets: from 481px to 775px */
-/* @media only screen and (max-width: 775px) {
-    body { font-size: 16px; }
-    section { padding: 30px 0; }
-    
-    .row,
-    .main-text-box { padding: 0 4%; }
-    .col { 
-        width: 100%; 
-        margin: 0 0 4% 0;
+}
+
+/* tablets, iPads: from 481px to 775px */
+@media only screen and (max-width: 775px) {
+    html,body {
+        height: 100vh;
     }
-    .main-nav { display: none; }
-    .mobile-nav-icon { display: inline-block; }
-    
-    .main-nav {
-        float: left;
-        margin-top: 35px;
-        margin-left: 25px;
+    body { 
+        font-size: 1em;
+        letter-spacing: 1px; 
     }
-    
-    .main-nav li {
-        display: block;
+    .subheading{
+        margin-bottom: 10%;
     }
-    
-    .main-nav li a:link,
-    .main-nav li a:visited {
-        display: block;
-        border: 0;
-        padding: 10px 0;
-        font-size: 150%;
+    /* nav li span:active{
+        all:initial;
+    } */
+    nav li span:after {
+        all:initial;
     }
-    
-    .ion-social-linkedin icon-med {
-        margin: 0 auto;
+    nav li span:hover:after {
+        all:initial;
     }
-    
-    .sticky .main-nav { margin-top: 10px; }
-    
-    .sticky .main-nav li a:link,
-    .sticky .main-nav li a:visited { padding: 10px 0; }
-    .sticky .mobile-nav-icon { margin-top: 10px; }
-    .sticky .mobile-nav-icon i { color: #555; }
-    
-    h1 { font-size: 180% }
-    h2 { font-size: 150% }
-    .long-copy {
+    .about-para p{
+        /* background-color: lightskyblue; */
         width: 100%;
-        margin-left: 0%;
-          
+        padding: 0% 11%;
+      }
+    .hobbies-para p, .hobbies-para h3{
+    width: 100%;
+    padding: 0% 11%;
     }
-    
-    .portfolio-box {
-        width: 90%;
-        font-size: 150%
+    .hobbies-para h3{
+        font-size: 1.2em;
     }
-    
-    .portfolio-box img {
-        width: 80%;
-        
+    #projects span{
+        font-size: 1em;
     }
-    
-    .portfolio-box i {
-        padding: 0 5%;
-        
+    #bubble-intro{
+        padding: 5% 15% 10% 15%;
+        /* background-color: red; */
     }
-    
-    .form-box {
-        position: relative;
-        width: 100%;
-        height: auto;
-        padding: 30 0;
-    }
-    
-    .ownmodal-content {
-        width: 100%;
-    }
-    
-    header {
-        background-attachment: scroll;
-        background-position: 50% 50%; 
-        width: 100%;
-    }
-    
-    .section-blog {
-        background-attachment: scroll;
-        background-position: 50% 50%; 
-        width: 100%;
-    }
-    
-    .section-portfolio img {
-        height: 1%;
-        cursor: pointer;
-    }
-} */
-/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size)
 @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 12px;}
-  }
+  } */
 
-/* small phones: from 0 to 480px */
+/* mobile devices: from 0 to 480px */
 @media only screen and (max-width: 480px) {
-    
-    /* adjust welcome page */
-    #welcome {
+    html, body {
         width: 100%;
-        height: 40%;
-        margin: 0px;
+        overflow-x: hidden;
+        background-color: rgb(246, 255, 248);
+      }
+      #welcome {
         border: 0px;
         padding: 0px;
         position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        background-image: url(../img/bg.jpg);
+        z-index: 1;
+        background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg.jpg);
+        /* rgba(0, 0, 218, 0.2), rgba(0, 0, 218, 0.2) */
         background-size: 100%;
-        background-position-y: 50%;
-    }
-      
-    #welcome p{
-        text-align:center;
-        font-size: large;
-        position: absolute;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-      
-    #content {
-        position: absolute;
-        font-size: large;
-        top: 50%;
-        width: 90%;
-        background-color: beige;
-        padding-right: 10%;
-    }
+        background-position-y: 40%;
+        font-size: 1.4em;
+      }
 }
