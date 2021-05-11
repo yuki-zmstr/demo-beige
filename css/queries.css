@@ -175,6 +175,9 @@
     body {
         font-size: 0.8em;
     }
+    #content .container {
+        padding: 0% 10%
+    }
     #logo {
         width: 40%;
         height: auto;
@@ -188,6 +191,9 @@
     }
     #contact .item {
         font-size: 0.8em;
+    }
+    #footer {
+        margin-bottom: 10%;
     }
 }
 
