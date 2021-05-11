@@ -186,8 +186,24 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    .subheading {
+        padding: 0%;
+        /* background-color: blue; */
+    }
+    #about img {
+        width: 70%;
+    }
+    #hobbies {
+        margin-bottom: 10%;
+    }
+    #first-quote {
+        margin-bottom: 10%;
+    }
     #bubble a {
         padding: 8px 16px
+    }
+    #bubble .bubble-box {
+        margin: 0% 15%;
     }
     #contact .item {
         font-size: 0.8em;
@@ -204,10 +220,20 @@
     header {
         display: block
     }
+    .subheading {
+        padding: 0%;
+        /* background-color: blue; */
+    }
+    #hobbies img {
+        width: 100%;
+    }
     .container#projects {
         padding: 0% 10% 0% 10%
     }
-    footer {
-        margin-bottom: 5%;
+    #projects .subheading {
+        padding-left: 6%;
+    }
+    #footer {
+        margin-bottom: 40%;
     }
 }

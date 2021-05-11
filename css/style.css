@@ -300,7 +300,8 @@ nav li span:hover:after {
 
 #about img {
     width: 50%;
-    transform: translate(50%);
+    margin: auto;
+    /* transform: translate(50%); */
     margin-bottom: 8%;
 }
 
@@ -354,7 +355,7 @@ nav li span:hover:after {
     width: 60%;
     margin: auto;
     margin-top: 5%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
 }
 
 
