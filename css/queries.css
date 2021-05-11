@@ -171,25 +171,25 @@
 
 /* mobile devices: from 0 to 480px */
 
-
-/* @media only screen and (max-width: 480px) {
-    html,
+@media only screen and (max-width: 480px) {
     body {
-        width: 100%;
-        overflow-x: hidden;
-        background-color: rgb(246, 255, 248);
+        font-size: 0.8em;
     }
-    #welcome {
-        border: 0px;
-        padding: 0px;
+    #logo {
+        width: 40%;
+        height: auto;
         position: absolute;
-        z-index: 1;
-        background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg.jpg);
-        background-size: 100%;
-        background-position-y: 40%;
-        font-size: 1.4em;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
-} */
+    #bubble a {
+        padding: 8px 16px
+    }
+    #contact .item {
+        font-size: 0.8em;
+    }
+}
 
 @media only screen and (max-width: 768px) {
     #sidenav {
@@ -197,5 +197,11 @@
     }
     header {
         display: block
+    }
+    .container#projects {
+        padding: 0% 10% 0% 10%
+    }
+    footer {
+        margin-bottom: 5%;
     }
 }

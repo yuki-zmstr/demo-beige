@@ -125,7 +125,7 @@ $(document).ready(function() {
     var start_pos = 0;
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
-        var footerPos = $("footer").offset().top;
+        var footerPos = $("#footer").offset().top;
         var current_pos = $(this).scrollTop();
         $(".sc").each(function() {
             var elemPos = $(this).offset().top;
@@ -134,7 +134,7 @@ $(document).ready(function() {
             }
         });
         if (scroll > footerPos - wh / 1.1) {
-            $("footer").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+            $("#footer").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
         }
 
     });

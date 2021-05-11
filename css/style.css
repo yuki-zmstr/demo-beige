@@ -270,6 +270,10 @@ nav li span:hover:after {
     padding-top: 10%;
 }
 
+#content .container {
+    padding: 0% 15%
+}
+
 .subheading {
     text-align: left;
     font-weight: bold;
@@ -327,6 +331,7 @@ nav li span:hover:after {
 } */
 
 #hobbies h3 {
+    font-size: 1.1em;
     margin-bottom: 3%;
 }
 
@@ -361,10 +366,10 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-#first-quote {
+.container#first-quote {
     font-size: 1.2em;
     text-align: center;
-    padding: 10% 0% 20% 0%;
+    padding: 10% 20% 20% 20%;
     /* background-color: lightgreen */
 }
 
@@ -382,32 +387,34 @@ nav li span:hover:after {
   background-color: lightcoral;
 } */
 
+.container#projects {
+    padding: 0% 10% 0% 20%
+}
+
 .project-box {
     background-color: lightyellow;
     border: 2px solid orange;
     position: relative;
     border-radius: 5%;
-    padding: 0% 10%;
+    padding: 0% 8%;
     margin-bottom: 10%;
 }
 
 .project-box h3 {
     background-color: rgb(246, 255, 248);
-    border-radius: 40%;
-    padding: 4% 0%;
+    border-radius: 20%;
+    padding: 5% 0%;
     /* Same as background */
-    width: 85%;
-    position: absolute;
-    left: 50%;
+    width: 100%;
+    /* position: absolute; */
+    /* left: 50%; */
     text-align: center;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
+    margin-bottom: 10%;
 }
 
-.project-box .container {
-    /* border: 2px solid purple; */
-    margin: 15% 0 10% 0;
-    width: 100%;
-    padding: 0
+.project-box .row {
+    margin-bottom: 5%
 }
 
 .project-box img {
@@ -425,6 +432,7 @@ nav li span:hover:after {
 
 .project-box p {
     text-align: center;
+    font-size: 0.9em;
     /* background-color: yellowgreen; */
     position: relative;
 }
@@ -461,7 +469,7 @@ nav li span:hover:after {
 
 #bubble {
     /* background-color: cornsilk; */
-    padding-bottom: 15%;
+    margin-bottom: 10%
 }
 
 #bubble-intro {
@@ -506,7 +514,7 @@ nav li span:hover:after {
 
 #contact {
     /* background-color:violet; */
-    margin-bottom: 0px
+    margin-bottom: 10%
 }
 
 #contact h4 {
@@ -546,10 +554,8 @@ nav li span:hover:after {
 
 /* Footer */
 
-footer {
-    margin-top: 15%;
-    padding-top: 0%;
-    /* background-color: aqua; */
+#footer {
+    text-align: center;
 }
 
 .btn7 {
@@ -557,7 +563,7 @@ footer {
     text-transform: none;
     font-family: 'Fira Sans Condensed', sans-serif;
     margin: auto;
-    width: 18%;
+    width: 25%;
     color: black;
     box-shadow: inset 000px 100px 0px 0px lightgray;
     -webkit-transition: all 0.6s cubic-bezier(.9, .24, .40, 1);
@@ -574,9 +580,8 @@ footer {
     color: black;
 }
 
-footer p {
+#footer p {
     font-size: 0.8em;
     /* background-color: white; */
-    text-align: center;
-    width: auto;
+    margin: auto;
 }
