@@ -1,110 +1,108 @@
 /* desktops, large screens 1200px */
+
 @media only screen and (max-width: 1200px) {
-    body { 
+    body {
         font-size: 1.3em;
     }
-
-    .subheading{
+    .subheading {
         margin-bottom: 8%;
     }
-    .about-para p{
+    .about-para p {
         /* background-color: lightskyblue; */
         width: 100%;
         padding: 0% 11%;
-      }
-    .hobbies-para p, .hobbies-para h3{
-    width: 100%;
-    padding: 0% 11%;
     }
-
+    .hobbies-para p,
+    .hobbies-para h3 {
+        width: 100%;
+        padding: 0% 11%;
+    }
     #first-quote {
         /* background-color: yellow; */
         font-size: 1.1em;
-        padding:15% 10% 20% 10%;
+        padding: 15% 10% 20% 10%;
     }
-    .project-box h3{
+    .project-box h3 {
         font-size: 1em;
         width: 90%;
     }
-    .project-box p{
+    .project-box p {
         font-size: 0.9em;
     }
-
-    .project-box i{
+    .project-box i {
         font-size: 1.3em;
-        padding:0% 5% 5% 5%;
-        color:rgb(197, 128, 0);
+        padding: 0% 5% 5% 5%;
+        color: rgb(197, 128, 0);
     }
-    #bubble-intro{
+    #bubble-intro {
         padding: 6% 15% 12% 15%;
         /* background-color: red; */
-      }
-    #logo {
-    width:23%;
     }
-} 
+    #logo {
+        width: 23%;
+    }
+}
+
 
 /* small screens, laptops from 769px to 1024px */
+
 @media only screen and (max-width: 1023px) {
-    body { 
+    body {
         font-size: 1.2em;
         letter-spacing: 1px;
-     }
+    }
     .subheading {
         margin-bottom: 8%;
-        }
+    }
     nav li {
         /* background-color: yellow; */
         font-size: 0.8em;
-      }
-
-    .about-para p{
+    }
+    .about-para p {
         /* background-color: lightskyblue; */
         width: 100%;
         padding: 0% 12%;
-      }
-    .hobbies-para p, .hobbies-para h3{
-    width: 100%;
-    padding: 0% 12%;
     }
-
-    #hobbies img{
+    .hobbies-para p,
+    .hobbies-para h3 {
+        width: 100%;
+        padding: 0% 12%;
+    }
+    #hobbies img {
         width: 70%;
-      }
-    
-    #first-quote{
+    }
+    #first-quote {
         text-align: center;
-        padding:20% 10% 20% 10%;
+        padding: 20% 10% 20% 10%;
         line-height: 1.3em;
         /* background-color: lightgreen */
     }
     .project-box {
-    /* background-color: lightyellow; */
-    margin-top: 5%;
+        /* background-color: lightyellow; */
+        margin-top: 5%;
     }
-    .project-box h3{
-    font-size: 1em;
-    width: 100%;
+    .project-box h3 {
+        font-size: 1em;
+        width: 100%;
     }
-    .project-box .container{
-        margin:20% 0 15% 0;
+    .project-box .container {
+        margin: 20% 0 15% 0;
     }
-    #projects span{
+    #projects span {
         font-size: 1.1em;
     }
-    #bubble-intro{
+    #bubble-intro {
         padding: 10% 15% 10% 15%;
         /* background-color: red; */
     }
-    .bubble-box h4{
+    .bubble-box h4 {
         font-size: 1em;
     }
-    
-    #bubble a{
+    #bubble a {
         padding: 20% 60%;
         font-size: 0.5em;
     }
-    #contact h4{
+    #contact h4 {
         font-size: 1.1em;
         text-align: center;
         /* background-color: darkgrey; */
@@ -116,47 +114,53 @@
     }
 }
 
+
 /* tablets, iPads: from 481px to 775px */
-@media only screen and (max-width: 775px) {
-    html,body {
+
+
+/* @media only screen and (max-width: 775px) {
+    html,
+    body {
         height: 100vh;
     }
-    body { 
+    body {
         font-size: 1em;
-        letter-spacing: 1px; 
+        letter-spacing: 1px;
     }
-    .subheading{
+    .subheading {
         margin-bottom: 10%;
     }
-    /* nav li span:active{
-        all:initial;
-    } */
+    nav li span:active {
+        all: initial;
+    }
     nav li span:after {
-        all:initial;
+        all: initial;
     }
     nav li span:hover:after {
-        all:initial;
+        all: initial;
     }
-    .about-para p{
-        /* background-color: lightskyblue; */
+    .about-para p {
+        background-color: lightskyblue;
         width: 100%;
         padding: 0% 11%;
-      }
-    .hobbies-para p, .hobbies-para h3{
-    width: 100%;
-    padding: 0% 11%;
     }
-    .hobbies-para h3{
+    .hobbies-para p,
+    .hobbies-para h3 {
+        width: 100%;
+        padding: 0% 11%;
+    }
+    .hobbies-para h3 {
         font-size: 1.2em;
     }
-    #projects span{
+    #projects span {
         font-size: 1em;
     }
-    #bubble-intro{
+    #bubble-intro {
         padding: 5% 15% 10% 15%;
-        /* background-color: red; */
+        background-color: red;
     }
-}
+} */
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size)
 @media screen and (max-height: 450px) {
@@ -164,22 +168,31 @@
     .sidenav a {font-size: 12px;}
   } */
 
+
 /* mobile devices: from 0 to 480px */
-@media only screen and (max-width: 480px) {
-    html, body {
+
+
+/* @media only screen and (max-width: 480px) {
+    html,
+    body {
         width: 100%;
         overflow-x: hidden;
         background-color: rgb(246, 255, 248);
-      }
-      #welcome {
+    }
+    #welcome {
         border: 0px;
         padding: 0px;
         position: absolute;
         z-index: 1;
         background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg.jpg);
-        /* rgba(0, 0, 218, 0.2), rgba(0, 0, 218, 0.2) */
         background-size: 100%;
         background-position-y: 40%;
         font-size: 1.4em;
-      }
+    }
+} */
+
+@media only screen and (max-width: 768px) {
+    #sidenav {
+        display: none;
+    }
 }
