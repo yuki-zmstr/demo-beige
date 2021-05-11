@@ -195,4 +195,7 @@
     #sidenav {
         display: none;
     }
+    header {
+        display: block
+    }
 }

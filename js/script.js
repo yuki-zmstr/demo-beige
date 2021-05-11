@@ -39,6 +39,14 @@ $(document).ready(function() {
 
     // show and hide the hidden nav bar
     function showhide() {
+        var btn = $("#btn_menu i")
+        if (btn.hasClass("fas fa-bars")) {
+            btn.removeClass("fas fa-bars");
+            btn.addClass("fas fa-times");
+        } else {
+            btn.removeClass("fas fa-times");
+            btn.addClass("fas fa-bars");
+        }
         console.log('clicked');
         var onPage = $(".selection").css("display");
         if (onPage == "none") {
@@ -53,9 +61,11 @@ $(document).ready(function() {
             }, 1000)
             console.log("bar is hidden");
         }
+
     }
-    $(".fa-bars").click(showhide)
+    $("#btn_menu i").click(showhide)
     $(".selection li").click(showhide)
+
 
     /* Navigation scroll */
     // $(function() {
