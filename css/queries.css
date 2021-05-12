@@ -1,16 +1,12 @@
 /* desktops, large screens 1200px */
 
-@media only screen and (max-width: 1200px) {
+
+/* @media only screen and (max-width: 1200px) {
     body {
         font-size: 1.3em;
     }
     .subheading {
         margin-bottom: 8%;
-    }
-    .about-para p {
-        /* background-color: lightskyblue; */
-        width: 100%;
-        padding: 0% 11%;
     }
     .hobbies-para p,
     .hobbies-para h3 {
@@ -18,7 +14,6 @@
         padding: 0% 11%;
     }
     #first-quote {
-        /* background-color: yellow; */
         font-size: 1.1em;
         padding: 15% 10% 20% 10%;
     }
@@ -36,17 +31,17 @@
     }
     #bubble-intro {
         padding: 6% 15% 12% 15%;
-        /* background-color: red; */
     }
     #logo {
         width: 23%;
     }
-}
+} */
 
 
 /* small screens, laptops from 769px to 1024px */
 
-@media only screen and (max-width: 1023px) {
+
+/* @media only screen and (max-width: 1023px) {
     body {
         font-size: 1.2em;
         letter-spacing: 1px;
@@ -55,11 +50,9 @@
         margin-bottom: 8%;
     }
     nav li {
-        /* background-color: yellow; */
         font-size: 0.8em;
     }
     .about-para p {
-        /* background-color: lightskyblue; */
         width: 100%;
         padding: 0% 12%;
     }
@@ -75,10 +68,8 @@
         text-align: center;
         padding: 20% 10% 20% 10%;
         line-height: 1.3em;
-        /* background-color: lightgreen */
     }
     .project-box {
-        /* background-color: lightyellow; */
         margin-top: 5%;
     }
     .project-box h3 {
@@ -93,7 +84,6 @@
     }
     #bubble-intro {
         padding: 10% 15% 10% 15%;
-        /* background-color: red; */
     }
     .bubble-box h4 {
         font-size: 1em;
@@ -105,14 +95,13 @@
     #contact h4 {
         font-size: 1.1em;
         text-align: center;
-        /* background-color: darkgrey; */
         margin-top: 4%;
         margin-bottom: 6%;
     }
     .btn7 {
         font-size: 0.8em;
     }
-}
+} */
 
 
 /* tablets, iPads: from 481px to 775px */
@@ -208,6 +197,12 @@
     #contact .item {
         font-size: 0.8em;
     }
+    #contact .col-6 {
+        padding-right: 2%;
+    }
+    #contact .col {
+        padding-left: 2%
+    }
     #footer {
         margin-bottom: 10%;
     }
@@ -232,6 +227,9 @@
     }
     .container#projects {
         padding: 0% 10% 0% 10%
+    }
+    #projects .row.sc {
+        margin: auto;
     }
     #projects .subheading {
         padding-left: 6%;
