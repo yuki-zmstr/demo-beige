@@ -22,7 +22,7 @@ body {
 }
 
 #main {
-    visibility: hidden;
+    visibility: true;
     margin: 0%
 }
 
@@ -370,8 +370,8 @@ nav li span:hover:after {
 .container#first-quote {
     font-size: 1.2em;
     text-align: center;
-    padding: 10% 20% 20% 20%;
-    /* background-color: lightgreen */
+    padding-top: 10%;
+    padding-bottom: 20%
 }
 
 
@@ -388,8 +388,8 @@ nav li span:hover:after {
   background-color: lightcoral;
 } */
 
-.container#projects {
-    padding: 0% 10% 0% 20%
+#projects .row.sc {
+    margin-left: 5%;
 }
 
 .project-box {
