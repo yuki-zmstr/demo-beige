@@ -171,7 +171,7 @@
 
 /* mobile devices: from 0 to 480px */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 550px) {
     body {
         font-size: 0.8em;
     }
@@ -214,6 +214,9 @@
 }
 
 @media only screen and (max-width: 768px) {
+    #welcome {
+        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg)
+    }
     #sidenav {
         display: none;
     }

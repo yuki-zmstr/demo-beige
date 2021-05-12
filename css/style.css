@@ -52,7 +52,7 @@ body {
     padding: 0px;
     position: absolute;
     z-index: 2;
-    background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg.jpg);
+    background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
     /* rgba(0, 0, 218, 0.2), rgba(0, 0, 218, 0.2) */
     background-size: 100%;
     background-position-y: 50%;
@@ -186,7 +186,7 @@ header {
 /* ----------------------------------------------- */
 
 .sidenav {
-    width: 20%;
+    width: 15%;
     /* Set the width of the sidebar */
     position: fixed;
     /* Fixed Sidebar (stay in place on scroll) */
@@ -271,7 +271,7 @@ nav li span:hover:after {
 }
 
 #content .container {
-    padding: 0% 15%
+    padding: 0% 10% 0% 15%
 }
 
 .subheading {
