@@ -126,20 +126,29 @@ $(document).ready(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         var footerPos = $("#footer").offset().top;
-        var current_pos = $(this).scrollTop();
+        var contactPos = $("#contact").offset().top
         $(".sc").each(function() {
             var elemPos = $(this).offset().top;
             if (scroll > elemPos - wh / 1.3) {
                 $(this).css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
             }
         });
-        if (scroll > footerPos - wh / 1.1) {
-            $("#footer").css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
-        }
+        $(".sc2").each(function() {
+            var elemPos = $(this).offset().top;
+            if (scroll > elemPos - wh / 1.1) {
+                $(this).css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+            }
+        });
+        $(".sc3").each(function() {
+            var elemPos = $(this).offset().top;
+            if (scroll > elemPos - wh) {
+                $(this).css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
+            }
+        });
+
 
     });
 
-    //   
 });
 
 
