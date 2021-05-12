@@ -40,29 +40,43 @@ $(document).ready(function() {
     // show and hide the hidden nav bar
     function showhide() {
         var btn = $("#btn_menu i")
-        if (btn.hasClass("fas fa-bars")) {
-            btn.removeClass("fas fa-bars");
-            btn.addClass("fas fa-times");
-        } else {
-            btn.removeClass("fas fa-times");
-            btn.addClass("fas fa-bars");
-        }
-        console.log('clicked');
-        var onPage = $(".selection").css("display");
-        if (onPage == "none") {
-            $(".selection").css({ opacity: 0.0, "display": "block" }).animate({ opacity: 1.0, right: "+=10" }, 500);
-            $(".container-fluid").animate({ opacity: 0.5 }, 500);
-            console.log("bar is shown");
-        } else {
-            $(".selection").animate({ opacity: 0.0, right: "-=10" }, 500);
-            $(".container-fluid").animate({ opacity: 1 }, 500);
-            setTimeout(function() {
-                $(".selection").css({ "display": "none" })
-            }, 1000)
-            console.log("bar is hidden");
+        var disabled = $("#btn_menu i").attr("disabled");
+        if (typeof disabled == typeof undefined) {
+            if (btn.hasClass("fas fa-bars")) {
+                btn.removeClass("fas fa-bars");
+                btn.addClass("fas fa-times");
+            } else {
+                btn.removeClass("fas fa-times");
+                btn.addClass("fas fa-bars");
+            }
+            var onPage = $(".selection").css("display");
+            if (onPage == "none") {
+                $(".selection").css({ opacity: 0.0, "display": "block" }).animate({ opacity: 1.0, right: "+=10" }, 500);
+                $(".container-fluid").animate({ opacity: 0.5 }, 500);
+                console.log("bar is shown");
+            } else {
+                $(".selection").animate({ opacity: 0.0, right: "-=10" }, 500);
+                $(".container-fluid").animate({ opacity: 1 }, 500);
+                setTimeout(function() {
+                    $(".selection").css({ "display": "none" })
+                }, 500)
+                console.log("bar is hidden");
+            }
+            $(this).attr("disabled", true);
+            var that = this;
+            setTimeout(function() { $(that).removeAttr("disabled") }, 600);
+            // console.log('clicked');
+
         }
 
     }
+
+
+    $("#submit").click(function() {
+        var that = this;
+        $(this).attr("disabled", true);
+        setTimeout(function() { enableSubmit(that) }, 1000);
+    });
     $("#btn_menu i").click(showhide)
     $(".selection li").click(showhide)
 
