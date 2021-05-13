@@ -16,9 +16,8 @@ body {
 }
 
 body {
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-size: x-large;
-    /* background-color: rgb(249, 248, 255); */
+    font-family: "Shippori Mincho", sans-serif;
+    font-size: 1.2em;
 }
 
 #main {
@@ -35,6 +34,19 @@ body {
     transform: translate(-50%, -50%);
 }
 
+#content .container {
+    padding: 0% 10% 0% 15%
+}
+
+.subheading {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.5em;
+    position: relative;
+    padding: 0% 8%;
+    margin-bottom: 6%;
+}
+
 
 /* ----------------------------------------------- */
 
@@ -48,12 +60,10 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    /* border: 0px; */
     padding: 0px;
     position: absolute;
     z-index: 2;
     background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
-    /* rgba(0, 0, 218, 0.2), rgba(0, 0, 218, 0.2) */
     background-size: 100%;
     background-position-y: 50%;
     font-size: 1.4em;
@@ -68,11 +78,6 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     letter-spacing: 1px;
-    /* background-color: wheat; */
-}
-
-#jp {
-    font-family: 'Shippori Mincho', sans-serif;
 }
 
 #ch {
@@ -96,7 +101,7 @@ header {
     height: auto;
     background-color: rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-    padding: 1% 6%;
+    padding: 1% 3%;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -109,27 +114,24 @@ header {
 
 #btn_menu {
     text-align: right;
-    /* background-color: lightslategray; */
     position: relative;
-    padding-right: 5%
 }
 
 #btn_menu i {
-    /* background-color: mediumblue; */
     padding: 5%;
-    font-size: large;
+    font-size: 1em;
     position: absolute;
     top: 50%;
-    transform: translate(0, -50%) rotate(90deg);
+    transform: translate(-60%, -50%) rotate(90deg);
 }
 
 #topnav p {
-    /* background-color: lightcyan; */
+    font-size: 1em;
     letter-spacing: 1px;
     font-weight: 600;
     text-align: center;
     color: black;
-    margin: 0%
+    margin: 0%;
 }
 
 .sticky {
@@ -187,38 +189,28 @@ header {
 
 .sidenav {
     width: 15%;
-    /* Set the width of the sidebar */
     position: fixed;
-    /* Fixed Sidebar (stay in place on scroll) */
     overflow-x: hidden;
     margin: 1%;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    /* border:4px solid blue; */
     padding: 0%
 }
 
 .sidenav p {
-    /* background-color: tomato; */
     font-weight: 600;
     padding: 30% 0%;
-    /* position: absolute; */
-    /* left: 50%;
-  transform: translate(-50%); */
     text-align: center;
-    color: black;
     margin: 0%
 }
 
 nav ul {
     margin: 0%;
     padding: 0%;
-    display: block;
 }
 
 nav li {
-    /* background-color: yellow; */
-    font-size: large;
+    font-size: 0.9em;
     line-height: 3em;
     list-style: none;
     margin: 0px;
@@ -227,12 +219,9 @@ nav li {
 }
 
 nav li span {
-    /* background-color: beige; */
     width: auto;
-    color: black;
     display: inline-block;
     text-align: center;
-    /* text-decoration: none; */
     position: relative;
     padding: 0%;
     left: 50%;
@@ -270,20 +259,6 @@ nav li span:hover:after {
     padding-top: 10%;
 }
 
-#content .container {
-    padding: 0% 10% 0% 15%
-}
-
-.subheading {
-    text-align: left;
-    font-weight: bold;
-    font-size: 1.5em;
-    position: relative;
-    padding: 0% 8%;
-    margin-bottom: 6%;
-    /* background-color: blue; */
-}
-
 
 /* ----------------------------------------------- */
 
@@ -295,24 +270,19 @@ nav li span:hover:after {
 
 #about {
     margin-top: 10%;
-    /* background-color: yellow; */
 }
 
 #about img {
-    width: 50%;
+    width: 30%;
     margin: auto;
-    /* transform: translate(50%); */
     margin-bottom: 8%;
 }
 
 .about-para {
     padding-bottom: 15%;
-    /* background-color: red; */
-    /* background-color: yellow; */
 }
 
 .about-para p {
-    /* background-color: lightskyblue; */
     width: 100%;
     padding: 0% 20%;
 }
@@ -326,20 +296,10 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-
-/* #hobbies {
-  background-color: blue;
-} */
-
 #hobbies h3 {
     font-size: 1.1em;
     margin-bottom: 3%;
 }
-
-
-/* .hobbies-para {
-  background-color: yellowgreen;
-} */
 
 .hobbies-para p,
 .hobbies-para h3 {
@@ -355,7 +315,6 @@ nav li span:hover:after {
     width: 60%;
     margin: auto;
     margin-top: 5%;
-    /* border-radius: 50%; */
 }
 
 
@@ -383,11 +342,6 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-
-/* #projects {
-  background-color: lightcoral;
-} */
-
 #projects .row.sc {
     margin-left: 5%;
 }
@@ -405,10 +359,10 @@ nav li span:hover:after {
     background-color: rgb(246, 255, 248);
     border-radius: 20%;
     padding: 5% 0%;
-    /* font-size: 1em; */
+    font-size: 1em;
     width: 100%;
+    margin: auto;
     text-align: center;
-    /* transform: translate(-50%, -50%); */
     margin-bottom: 10%;
 }
 
@@ -432,15 +386,12 @@ nav li span:hover:after {
 .project-box p {
     text-align: center;
     font-size: 0.9em;
-    /* background-color: yellowgreen; */
-    position: relative;
 }
 
 .proj-icons {
     display: flex;
     justify-content: center;
     clear: both;
-    /* background-color: violet; */
 }
 
 .project-box i {
@@ -453,7 +404,6 @@ nav li span:hover:after {
     text-align: center;
     font-size: 1.3em;
     font-weight: 800;
-    /* background-color: teal; */
     padding: 10% 0% 20% 0%;
 }
 
@@ -467,13 +417,11 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 #bubble {
-    /* background-color: cornsilk; */
     margin-bottom: 10%
 }
 
 #bubble-intro {
-    padding: 10% 15% 10% 15%;
-    /* background-color: red; */
+    padding: 2% 15% 8% 15%;
 }
 
 #bubble-intro p {
@@ -484,21 +432,22 @@ nav li span:hover:after {
 #bubble .bubble-box {
     width: auto;
     margin: 0% 25%;
-    /* background-color: pink; */
     margin-bottom: 5%;
 }
 
 #bubble .bubble-box h4 {
+    font-size: 1.1em;
     font-weight: 600;
 }
 
 #bubble a {
     padding: 10% 50%;
-    font-family: "Poppins", sans-serif;
+    font-size: 0.6em;
+    font-family: "Shippori Mincho", sans-serif;
     transform: translate(-20%, -20%);
     color: black;
     border: 2px solid pink;
-    letter-spacing: 1.5px;
+    letter-spacing: 1px;
     line-height: 1.5em;
 }
 
@@ -512,22 +461,20 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 #contact {
-    /* background-color:violet; */
-    margin-bottom: 10%
+    margin-bottom: 5%
 }
 
 #contact h4 {
+    font-size: 1em;
     text-align: center;
-    /* background-color: darkgrey; */
     margin-top: 4%;
     margin-bottom: 6%;
 }
 
 #contact .item {
-    /* background-color: yellow; */
     padding-top: 1%;
-    /* width: 100% */
-    margin: auto
+    margin: auto;
+    font-size: 1em;
 }
 
 #contact .col-6 {
@@ -540,18 +487,18 @@ nav li span:hover:after {
     padding-left: 3%;
 }
 
-#contact li {
-    list-style: none;
-    display: flex;
-    justify-content: center;
-}
-
 #contact a {
-    font-size: 1.8em;
+    font-size: 1.9em;
     margin: 0% 2%;
     text-decoration: none;
     color: rgb(187, 186, 186);
     transition: color 0.4s ease-in-out
+}
+
+#contact li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
 }
 
 #contact a:hover {
@@ -568,7 +515,7 @@ nav li span:hover:after {
 .btn7 {
     padding: 1% 0%;
     text-transform: none;
-    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: "Shippori Mincho", sans-serif;
     margin: auto;
     width: 25%;
     color: black;
@@ -589,6 +536,5 @@ nav li span:hover:after {
 
 #footer p {
     font-size: 0.8em;
-    /* background-color: white; */
     margin: auto;
 }
