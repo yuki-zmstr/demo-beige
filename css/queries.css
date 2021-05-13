@@ -65,10 +65,11 @@
         font-size: 0.8em;
     }
     #welcome {
-        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg)
+        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg) letter-spacing: 0px;
     }
     #content .container {
-        padding: 0% 5%
+        padding: 0% 5%;
+        margin-bottom: 10%;
     }
     #logo {
         width: 40%;
@@ -93,6 +94,7 @@
     .about-para p {
         width: 100%;
         padding: 0% 10%;
+        margin-bottom: 10%;
     }
     #hobbies {
         margin-bottom: 10%;
@@ -103,16 +105,23 @@
     .hobbies-para p,
     .hobbies-para h3 {
         width: 100%;
-        padding: 0% 10%;
+        padding: 5% 10%;
+        margin-bottom: 5%;
     }
     #first-quote {
-        margin-bottom: 10%;
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
     #projects .row.sc {
         margin: auto;
     }
     #bubble .bubble-box {
         margin: 0% 15%;
+    }
+    #bubble-intro {
+        padding: 2% 15% 8% 15%;
+        margin-top: 20%;
+        margin-bottom: 20%;
     }
     .bubble-box h4 {
         font-size: 1em;
@@ -145,5 +154,8 @@
     #footer p {
         font-size: 0.7em;
         margin: auto;
+    }
+    #footer {
+        margin-bottom: 20%;
     }
 }
