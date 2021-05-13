@@ -31,10 +31,6 @@
     header {
         display: block
     }
-    img {
-        margin: 0px 0px;
-        padding: 0px 0px
-    }
     .subheading {
         padding: 0%;
     }
@@ -69,6 +65,23 @@
     }
     .project-box h3 {
         font-size: 1.2em;
+    }
+    #contact h4 {
+        font-size: 1em;
+    }
+    #contact .item {
+        padding-top: 1%;
+        margin: auto;
+        font-size: 0.8em;
+    }
+    #contact a {
+        font-size: 2em;
+    }
+    #contact .col-6 {
+        padding-right: 2%;
+    }
+    #contact .col {
+        padding-left: 2%
     }
 }
 
