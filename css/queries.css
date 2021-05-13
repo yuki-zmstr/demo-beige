@@ -109,7 +109,10 @@
         width: 100%;
     }
     .hobbies-para {
-        margin-bottom: 15%;
+        margin-bottom: 10%;
+    }
+    .dummy {
+        padding-bottom: 20%;
     }
     .hobbies-para p,
     .hobbies-para h3 {
@@ -117,9 +120,6 @@
         padding: 0% 10%;
     }
     .container#first-quote {
-        font-size: 1.2em;
-        text-align: center;
-        padding-top: 10%;
         padding-bottom: 30%
     }
     #projects .row.sc {
@@ -132,7 +132,6 @@
         margin: 0% 15%;
     }
     #bubble-intro {
-        padding: 2% 15% 8% 15%;
         margin-top: 5%;
         margin-bottom: 5%;
     }
