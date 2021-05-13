@@ -111,11 +111,11 @@
     .hobbies-para p,
     .hobbies-para h3 {
         width: 100%;
-        padding: 5% 10%;
+        padding: 0% 10%;
     }
     #first-quote {
         margin-top: 20%;
-        margin-bottom: 40%;
+        margin-bottom: 60%;
     }
     #projects .row.sc {
         margin: auto;
@@ -128,8 +128,8 @@
     }
     #bubble-intro {
         padding: 2% 15% 8% 15%;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-top: 5%;
+        margin-bottom: 5%;
     }
     .bubble-box h4 {
         font-size: 1em;
