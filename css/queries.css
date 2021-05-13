@@ -31,6 +31,10 @@
     header {
         display: block
     }
+    img {
+        margin: 0px 0px;
+        padding: 0px 0px
+    }
     .subheading {
         padding: 0%;
     }
@@ -40,9 +44,6 @@
     }
     #about img {
         width: 50%;
-        /* margin: auto;
-        margin-bottom: none;
-        margin-top: none */
     }
     .about-para p {
         width: 100%;
