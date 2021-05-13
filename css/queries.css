@@ -22,6 +22,9 @@
     #welcome {
         background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg)
     }
+    #welcome p {
+        letter-spacing: none;
+    }
     #sidenav {
         display: none;
     }
@@ -30,6 +33,16 @@
     }
     .subheading {
         padding: 0%;
+    }
+    #content .container {
+        padding: 0% 5%;
+        margin-bottom: 10%;
+    }
+    #about img {
+        width: 50%;
+        /* margin: auto;
+        margin-bottom: none;
+        margin-top: none */
     }
     .about-para p {
         width: 100%;
@@ -42,6 +55,7 @@
     }
     #hobbies img {
         width: 100%;
+        /* margin-bottom: none; */
     }
     .container#projects {
         padding: 0% 10% 0% 10%
@@ -118,7 +132,6 @@
     }
     #hobbies img {
         margin-top: 0%;
-        margin-bottom: 50%;
     }
     .container#first-quote {
         padding-bottom: 30%
