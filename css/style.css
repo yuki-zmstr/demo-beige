@@ -322,8 +322,8 @@ nav li span:hover:after {
 .container#first-quote {
     font-size: 1.2em;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 20%
+    padding-top: 100px;
+    padding-bottom: 150px
 }
 
 
@@ -335,32 +335,28 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
-#projects .row.sc {
-    margin-left: 5%;
-}
-
 .project-box {
     background-color: lightyellow;
     border: 2px solid orange;
     position: relative;
     border-radius: 5%;
-    padding: 0% 8%;
     margin-bottom: 10%;
+    margin: auto;
 }
 
 .project-box h3 {
     background-color: rgb(246, 255, 248);
     border-radius: 20%;
     padding: 5% 0%;
-    font-size: 1em;
+    font-size: 1.2em;
     width: 100%;
     margin: auto;
     text-align: center;
-    margin-bottom: 10%;
 }
 
-.project-box .row {
-    margin-bottom: 5%
+.project-box p {
+    text-align: center;
+    font-size: 1em;
 }
 
 .project-box img {
@@ -368,8 +364,8 @@ nav li span:hover:after {
     height: 100%;
     margin: auto;
     display: block;
-    -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px
+    margin-top: 50px;
+    margin-bottom: 50px
 }
 
 .project-box img:hover {
@@ -380,20 +376,15 @@ nav li span:hover:after {
     transition: transform 0.5s
 }
 
-.project-box p {
-    text-align: center;
-    font-size: 0.9em;
-}
-
 .proj-icons {
     display: flex;
-    justify-content: center;
+    text-align: center;
     clear: both;
 }
 
 .project-box i {
-    font-size: 1.5em;
-    padding: 0% 5% 5% 5%;
+    font-size: 2em;
+    padding: 0 30px 0 30px;
     color: rgb(197, 128, 0);
 }
 
