@@ -47,6 +47,7 @@ body {
     font-weight: bold;
     font-size: 1.5rem;
     padding: 0%;
+    padding-left: 20px;
     margin: 0%;
 }
 
@@ -266,7 +267,7 @@ nav li span:hover:after {
 }
 
 .about-para {
-    background-color: yellow;
+    /* background-color: yellow; */
     padding: 0 50px 100px 50px;
     width: 100%;
     margin: 0px
@@ -290,7 +291,7 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 .hobbies-para {
-    background-color: pink;
+    /* background-color: pink; */
     padding: 100px 50px 0px 50px;
     width: 100%;
     margin: 0px
@@ -360,8 +361,8 @@ nav li span:hover:after {
 }
 
 .project-box img {
-    width: 90%;
-    height: 90%;
+    width: 100%;
+    height: 100%;
     margin: auto;
     display: block;
     margin-top: 40px;
@@ -371,6 +372,7 @@ nav li span:hover:after {
 .project-box p {
     text-align: center;
     font-size: 1rem;
+    padding: 0px 30px;
 }
 
 .project-box img {
@@ -465,7 +467,7 @@ nav li span:hover:after {
 .container#contact {
     margin-bottom: 20px;
     padding-bottom: 0px;
-    background-color: cyan;
+    /* background-color: cyan; */
 }
 
 #contact .subheading {
@@ -486,13 +488,13 @@ nav li span:hover:after {
 }
 
 #contact .col-6 {
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     text-align: right;
     padding-right: 40px
 }
 
 #contact .col {
-    background-color: brown;
+    /* background-color: brown; */
     text-align: left;
     padding-left: 40px
 }
@@ -523,7 +525,7 @@ nav li span:hover:after {
     text-align: center;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .btn7 {
