@@ -1,19 +1,20 @@
 /* iPad pro */
 
-@media only screen and (min-width:769px) and (max-width: 1024px) {
+
+/* @media only screen and (min-width:769px) and (max-width: 1024px) {
     body {
         font-size: 1.2em;
     }
     #welcome {
         font-size: 1.5em;
     }
-    /* #about img {
+    #about img {
         height: 100px;
-    } */
+    }
     .project-box h3 {
         font-size: 1em;
     }
-}
+} */
 
 
 /* iPad portrait*/
