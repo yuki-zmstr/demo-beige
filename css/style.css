@@ -16,7 +16,6 @@ body {
     background-color: rgb(246, 255, 248);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    /* font-size: 15px */
     font-size: 2vw;
 }
 
@@ -39,7 +38,8 @@ body {
 }
 
 #content .container {
-    padding: 0 30px 200px 30px
+    padding: 0 25px 200px 25px;
+    margin: auto
 }
 
 .subheading {
@@ -70,7 +70,7 @@ body {
     background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     background-size: 100%;
     background-position-y: 50%;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 }
 
 #welcome p {
@@ -87,7 +87,6 @@ body {
 
 #ch {
     font-family: 'Ma Shan Zheng', cursive;
-    font-size: 1.1rem;
 }
 
 
@@ -106,7 +105,7 @@ header {
     height: auto;
     background-color: rgba(0, 0, 0, 0.1);
     font-family: 'Poppins', sans-serif;
-    padding: 1% 3%;
+    padding: 5px 20px;
     position: fixed;
     top: 0;
     z-index: 2;
