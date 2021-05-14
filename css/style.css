@@ -265,19 +265,19 @@ nav li span:hover:after {
     margin-top: 10%;
 }
 
+.about-para {
+    padding-bottom: 15%;
+    width: 100%;
+}
+
 #about img {
     width: 40%;
     height: 40%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px
+    margin-top: 50px;
+    margin-bottom: 50px
     /* -webkit-margin-before: 0px;
     -webkit-margin-after: 0px */
-}
-
-.about-para {
-    padding-bottom: 15%;
-    width: 100%;
 }
 
 
@@ -290,6 +290,7 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 .hobbies-para {
+    background-color: pink;
     padding: 10px 0px;
     width: 100%;
 }
@@ -301,6 +302,7 @@ nav li span:hover:after {
 
 .dummy {
     height: 100px;
+    background-color: blue;
 }
 
 #hobbies img {
