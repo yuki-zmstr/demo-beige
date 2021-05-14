@@ -275,7 +275,8 @@ nav li span:hover:after {
 #about img {
     width: 30%;
     margin: auto;
-    margin-bottom: 8%;
+    -webkit-margin-top-collapse: collapse;
+    -webkit-margin-bottom-collapse: collapse;
 }
 
 .about-para {
@@ -314,7 +315,9 @@ nav li span:hover:after {
 #hobbies img {
     width: 60%;
     margin: auto;
-    margin-top: 5%;
+    -webkit-margin-top-collapse: collapse;
+    -webkit-margin-bottom-collapse: collapse;
+    /* margin-top: 5%; */
 }
 
 
@@ -374,6 +377,8 @@ nav li span:hover:after {
     max-width: 100%;
     margin: auto;
     display: block;
+    -webkit-margin-top-collapse: collapse;
+    -webkit-margin-bottom-collapse: collapse;
 }
 
 .project-box img:hover {
@@ -510,6 +515,7 @@ nav li span:hover:after {
 
 #footer {
     text-align: center;
+    /* margin-bottom: 3% */
 }
 
 .btn7 {

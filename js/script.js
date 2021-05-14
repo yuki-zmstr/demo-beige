@@ -115,7 +115,7 @@ $(document).ready(function() {
         });
         $(".sc3").each(function() {
             var elemPos = $(this).offset().top;
-            if (scroll > elemPos - wh) {
+            if (scroll > elemPos - wh * 1.1) {
                 $(this).css({ opacity: 0.0, visibility: "visible" }).animate({ opacity: 1.0 }, 1000);
             }
         });

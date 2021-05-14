@@ -52,7 +52,6 @@
     }
     #hobbies img {
         width: 100%;
-        /* margin-bottom: none; */
     }
     .container#projects {
         padding: 0% 10% 0% 10%
@@ -144,9 +143,9 @@
         width: 100%;
         padding: 0% 10%;
     }
-    #hobbies img {
+    /* #hobbies img {
         margin-top: 0%;
-    }
+    } */
     .container#first-quote {
         padding-bottom: 30%
     }
