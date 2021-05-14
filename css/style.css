@@ -163,9 +163,8 @@ header {
 
 .selection li {
     list-style: none;
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 2.5rem;
-    list-style: none;
     margin: 0px;
     padding: 0px;
     cursor: pointer;
@@ -465,7 +464,8 @@ nav li span:hover:after {
 
 .container#contact {
     margin-bottom: 20px;
-    padding-bottom: 0px
+    padding-bottom: 0px;
+    background-color: cyan;
 }
 
 #contact .subheading {
@@ -522,7 +522,8 @@ nav li span:hover:after {
 .container#footer {
     text-align: center;
     margin-bottom: 0px;
-    padding-bottom: 0px
+    padding-bottom: 0px;
+    background-color: brown;
 }
 
 .btn7 {
