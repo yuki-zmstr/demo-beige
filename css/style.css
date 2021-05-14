@@ -38,7 +38,7 @@ body {
 }
 
 #content .container {
-    padding: 0% 10% 0% 15%
+    padding: 0% 5% 0% 5%
 }
 
 .subheading {
@@ -70,7 +70,7 @@ body {
     background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
     background-size: 100%;
     background-position-y: 50%;
-    font-size: 1.4em;
+    font-size: 1.2em;
 }
 
 #welcome p {
@@ -101,7 +101,7 @@ body {
 
 header {
     margin-top: 2%;
-    display: none;
+    display: block;
     width: 100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.1);
@@ -110,6 +110,7 @@ header {
     position: fixed;
     top: 0;
     z-index: 2;
+    -webkit-transition: top 0.4s ease-in-out;
     transition: top 0.4s ease-in-out
 }
 
@@ -181,6 +182,7 @@ header {
 /* ----------------------------------------------- */
 
 .sidenav {
+    display: none;
     width: 15%;
     position: fixed;
     overflow-x: hidden;
@@ -247,7 +249,6 @@ nav li span:hover:after {
 
 #content {
     position: absolute;
-    letter-spacing: 0.01em;
     line-height: 150%;
     top: 100%;
     padding-top: 10%;
