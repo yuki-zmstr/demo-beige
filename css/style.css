@@ -16,7 +16,7 @@ body {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     /* font-size: 15px */
-    font-size: 8vw;
+    font-size: 3vw;
 }
 
 body {
@@ -267,7 +267,7 @@ nav li span:hover:after {
 }
 
 .about-para {
-    background-color: yellow;
+    background-color: pink;
     padding: 0 50px 100px 50px;
     width: 100%;
 }
