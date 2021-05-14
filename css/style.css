@@ -8,6 +8,13 @@
 
 /* ----------------------------------------------- */
 
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
 html,
 body {
     width: 100%;
@@ -63,7 +70,7 @@ body {
     margin: 0px;
     padding: 0px;
     position: absolute;
-    z-index: 2;
+    z-index: 1;
     background-image: -webkit-radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
     background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
     background-size: 100%;
@@ -107,7 +114,7 @@ header {
     padding: 1% 3%;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 2;
     transition: top 0.4s ease-in-out
 }
 
@@ -138,14 +145,6 @@ header {
     margin: 0%;
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 9999;
-}
-
 
 /* ----------------------------------------------- */
 
@@ -160,7 +159,7 @@ header {
     position: fixed;
     top: 20%;
     right: 5%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .selection ul {
