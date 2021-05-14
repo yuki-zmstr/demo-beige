@@ -427,7 +427,8 @@ nav li span:hover:after {
 
 #bubble-intro {
     text-align: center;
-    padding: 100px 100px 100px 100px
+    padding: 100px 80px;
+    line-height: 1rem;
 }
 
 #bubble-intro p {
