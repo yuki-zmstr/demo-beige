@@ -267,8 +267,8 @@ nav li span:hover:after {
 }
 
 #about img {
-    width: 30%;
-    height: 30%;
+    width: 40%;
+    height: 40%;
     margin: auto;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px
@@ -370,7 +370,7 @@ nav li span:hover:after {
 }
 
 .project-box img {
-    width: 80%;
+    width: 100%;
     height: auto;
     margin: auto;
     display: block;

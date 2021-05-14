@@ -19,8 +19,7 @@
 
 /* iPad portrait*/
 
-
-/* @media only screen and (min-width:767px) and (max-width: 768px) {
+@media only screen and (min-width:767px) and (max-width: 768px) {
     body {
         font-size: 1em
     }
@@ -43,10 +42,6 @@
         padding: 0% 5%;
         margin-bottom: 10%;
     }
-    #about img {
-        width: 50%;
-        height: 50%;
-    }
     .about-para p {
         width: 100%;
         padding: 0% 10%;
@@ -55,10 +50,6 @@
     .hobbies-para h3 {
         width: 100%;
         padding: 0% 10%;
-    }
-    #hobbies img {
-        width: 100%;
-        height: 50%;
     }
     .container#projects {
         padding: 0% 10% 0% 10%
@@ -70,10 +61,7 @@
         padding-left: 6%;
     }
     .project-box h3 {
-        font-size: 1.2em;
-    }
-    .project-box img {
-        height: 50%
+        font-size: 1em;
     }
     #contact h4 {
         font-size: 1em;
@@ -81,10 +69,10 @@
     #contact .item {
         padding-top: 1%;
         margin: auto;
-        font-size: 0.8em;
+        font-size: 1em;
     }
     #contact a {
-        font-size: 2em;
+        font-size: 1em;
     }
     #contact .col-6 {
         padding-right: 2%;
@@ -92,7 +80,7 @@
     #contact .col {
         padding-left: 2%
     }
-} */
+}
 
 
 /* mobile */
