@@ -334,12 +334,14 @@ nav li span:hover:after {
 
 /* ----------------------------------------------- */
 
+#projects .col-lg {
+    margin-top: 100px;
+}
+
 .project-box {
     background-color: lightyellow;
     border: 2px solid orange;
     border-radius: 5%;
-    margin-top: 100px;
-    margin-bottom: 100px;
     margin: auto;
 }
 
@@ -405,22 +407,21 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 #bubble {
-    margin-bottom: 10%
+    margin-bottom: 200px;
 }
 
 #bubble-intro {
-    padding: 2% 15% 8% 15%;
+    padding: 50px 100px 50px 100px
 }
 
 #bubble-intro p {
     font-size: 1rem;
-    line-height: 1.5rem
 }
 
 #bubble .bubble-box {
     width: auto;
-    margin: 0% 25%;
-    margin-bottom: 5%;
+    margin: 0 50px;
+    margin-bottom: 50px
 }
 
 #bubble .bubble-box h4 {
@@ -429,15 +430,14 @@ nav li span:hover:after {
 }
 
 #bubble a {
-    padding: 10% 50%;
-    font-size: 0.6rem;
+    padding: 20px 50px;
+    font-size: 0.8rem;
     font-family: "Shippori Mincho", sans-serif;
     -webkit-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
     color: black;
     border: 2px solid pink;
     letter-spacing: 1px;
-    line-height: 1.5rem;
 }
 
 
@@ -450,35 +450,37 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 #contact {
-    margin-bottom: 5%
+    margin-bottom: 100px
 }
 
 #contact h4 {
     font-size: 1rem;
     text-align: center;
-    margin-top: 4%;
-    margin-bottom: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px
 }
 
 #contact .item {
-    padding-top: 1%;
+    padding-top: 10px;
     margin: auto;
     font-size: 1rem;
 }
 
 #contact .col-6 {
+    background-color: aliceblue;
     text-align: right;
-    padding-right: 3%;
+    padding-right: 50px
 }
 
 #contact .col {
+    background-color: brown;
     text-align: left;
-    padding-left: 3%;
+    padding-left: 50px
 }
 
 #contact a {
     font-size: 1.9rem;
-    margin: 0% 2%;
+    margin: 0 20px;
     text-decoration: none;
     color: rgb(187, 186, 186);
     -webkit-transition: color 0.4s ease-in-out;
@@ -503,11 +505,11 @@ nav li span:hover:after {
 }
 
 .btn7 {
-    padding: 1% 0%;
+    padding: 20px 0px;
     text-transform: none;
     font-family: "Shippori Mincho", sans-serif;
     margin: auto;
-    width: 25%;
+    width: 200px;
     color: black;
     -webkit-box-shadow: inset 000px 100px 0px 0px lightgray;
     box-shadow: inset 000px 100px 0px 0px lightgray;
