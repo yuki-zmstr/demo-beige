@@ -43,7 +43,7 @@
     }
     #about img {
         width: 50%;
-        height: 100px
+        height: auto;
     }
     .about-para p {
         width: 100%;

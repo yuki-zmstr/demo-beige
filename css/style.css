@@ -315,7 +315,7 @@ nav li span:hover:after {
     width: 60%;
     margin: auto;
     -webkit-margin-before: 0px;
-    -webkit-margin-after: 0px
+    -webkit-margin-after: 0px;
     /* margin-top: 5%; */
 }
 
