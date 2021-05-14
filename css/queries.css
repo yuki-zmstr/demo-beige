@@ -7,6 +7,9 @@
     #welcome {
         font-size: 1.5em;
     }
+    /* #about img {
+        height: 100px;
+    } */
     .project-box h3 {
         font-size: 1em;
     }
@@ -40,6 +43,7 @@
     }
     #about img {
         width: 50%;
+        height: 100px
     }
     .about-para p {
         width: 100%;
