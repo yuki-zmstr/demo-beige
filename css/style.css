@@ -45,7 +45,7 @@ body {
 .subheading {
     text-align: left;
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     padding: 0%;
     padding-left: 20px;
     margin: 0%;
@@ -164,8 +164,8 @@ header {
 
 .selection li {
     list-style: none;
-    font-size: 1.5rem;
-    line-height: 2.5rem;
+    font-size: 1.2rem;
+    line-height: 3rem;
     margin: 0px;
     padding: 0px;
     cursor: pointer;
@@ -366,7 +366,7 @@ nav li span:hover:after {
     margin: auto;
     display: block;
     margin-top: 40px;
-    margin-bottom: 20px
+    margin-bottom: 10px
 }
 
 .project-box p {
