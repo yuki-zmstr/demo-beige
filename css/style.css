@@ -24,7 +24,6 @@ body {
 
 #main {
     visibility: hidden;
-    margin: 0%
 }
 
 #logo {
@@ -45,8 +44,7 @@ body {
     text-align: left;
     font-weight: bold;
     font-size: 1.5em;
-    position: relative;
-    padding: 0% 0%;
+    padding: 0%;
     margin: 0%;
 }
 
@@ -277,12 +275,14 @@ nav li span:hover:after {
 
 .about-para {
     padding-bottom: 15%;
+    width: 100%;
 }
 
-.about-para p {
+
+/* .about-para p {
     width: 100%;
-    padding: 0% 10%;
-}
+    padding: 0%;
+} */
 
 
 /* ----------------------------------------------- */
