@@ -274,6 +274,7 @@ nav li span:hover:after {
 #about img {
     width: 30%;
     margin: auto;
+    height: 500px;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px
 }
@@ -313,6 +314,7 @@ nav li span:hover:after {
 
 #hobbies img {
     width: 60%;
+    height: auto;
     margin: auto;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
@@ -374,6 +376,7 @@ nav li span:hover:after {
 
 .project-box img {
     max-width: 100%;
+    height: auto;
     margin: auto;
     display: block;
     -webkit-margin-before: 0px;
