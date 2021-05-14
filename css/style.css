@@ -192,7 +192,7 @@ header {
     margin: 1%;
     font-family: 'Poppins', sans-serif;
     letter-spacing: 1px;
-    padding: 0%
+    padding: 0%;
 }
 
 .sidenav p {
@@ -276,6 +276,8 @@ nav li span:hover:after {
     margin: auto;
     -webkit-margin-top-collapse: discard;
     -webkit-margin-bottom-collapse: discard;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px
 }
 
 .about-para {
