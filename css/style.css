@@ -275,8 +275,8 @@ nav li span:hover:after {
 #about img {
     width: 30%;
     margin: auto;
-    -webkit-margin-top-collapse: collapse;
-    -webkit-margin-bottom-collapse: collapse;
+    -webkit-margin-top-collapse: discard;
+    -webkit-margin-bottom-collapse: discard;
 }
 
 .about-para {
@@ -315,8 +315,8 @@ nav li span:hover:after {
 #hobbies img {
     width: 60%;
     margin: auto;
-    -webkit-margin-top-collapse: collapse;
-    -webkit-margin-bottom-collapse: collapse;
+    -webkit-margin-top-collapse: discard;
+    -webkit-margin-bottom-collapse: discard;
     /* margin-top: 5%; */
 }
 
@@ -377,8 +377,8 @@ nav li span:hover:after {
     max-width: 100%;
     margin: auto;
     display: block;
-    -webkit-margin-top-collapse: collapse;
-    -webkit-margin-bottom-collapse: collapse;
+    -webkit-margin-top-collapse: discard;
+    -webkit-margin-bottom-collapse: discard;
 }
 
 .project-box img:hover {
