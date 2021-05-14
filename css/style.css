@@ -8,18 +8,13 @@
 
 /* ----------------------------------------------- */
 
-* {
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
 html,
 body {
     width: 100%;
     overflow-x: hidden;
     background-color: rgb(246, 255, 248);
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -315,7 +310,8 @@ nav li span:hover:after {
 #hobbies img {
     width: 60%;
     height: 60%;
-    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%;
     -webkit-margin-before: 0px;
     -webkit-margin-after: 0px;
     /* margin-top: 5%; */
@@ -376,7 +372,7 @@ nav li span:hover:after {
 
 .project-box img {
     width: 60%;
-    height: 60%;
+    height: auto;
     margin: auto;
     display: block;
     -webkit-margin-before: 0px;
