@@ -344,7 +344,7 @@ nav li span:hover:after {
     border: 2px solid orange;
     border-radius: 5%;
     margin: auto;
-    padding: 0px 20px 20px 20px
+    padding: 0px 30px 20px 30px
 }
 
 .project-box h3 {
@@ -364,7 +364,7 @@ nav li span:hover:after {
     margin: auto;
     display: block;
     margin-top: 40px;
-    margin-bottom: 40px
+    margin-bottom: 20px
 }
 
 .project-box p {
@@ -442,8 +442,8 @@ nav li span:hover:after {
 }
 
 #bubble a {
-    padding: 10px 30px;
-    font-size: 0.8rem;
+    padding: 5px 20px;
+    font-size: 0.7rem;
     font-family: "Shippori Mincho", sans-serif;
     -webkit-transform: translate(-20%, -20%);
     transform: translate(-20%, -20%);
@@ -465,15 +465,19 @@ nav li span:hover:after {
     margin-bottom: 100px
 }
 
-#contact h4 {
+#contact .subheading {
+    margin-bottom: 50px;
+}
+
+
+/* #contact h4 {
     font-size: 1rem;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px
-}
+} */
 
 #contact .item {
-    /* padding-top: 10px; */
     margin: auto;
     font-size: 1.1rem;
 }
@@ -512,13 +516,13 @@ nav li span:hover:after {
 
 /* Footer */
 
-#footer {
+.container#footer {
     text-align: center;
     margin-bottom: 0px;
 }
 
 .btn7 {
-    /* padding: 20px 0px; */
+    padding: 20px 0px;
     text-transform: none;
     font-family: "Shippori Mincho", sans-serif;
     margin: auto;
