@@ -19,7 +19,8 @@
 
 /* iPad portrait*/
 
-@media only screen and (min-width:767px) and (max-width: 768px) {
+
+/* @media only screen and (min-width:767px) and (max-width: 768px) {
     body {
         font-size: 1em
     }
@@ -79,26 +80,30 @@
     }
     #contact .col {
         padding-left: 2%
-    }
+    } */
+
+
 }
 
-
 /* mobile */
-
 @media only screen and (min-width:200px) and (max-width: 767px) {
     body {
         font-size: 0.8em;
     }
+    
     #welcome {
         background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     }
+    
     #welcome p {
         letter-spacing: none;
     }
+    
     #content .container {
         padding: 0% 5%;
         margin-bottom: 10%;
     }
+    
     #logo {
         width: 40%;
         height: auto;
@@ -107,89 +112,114 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
+    
     #sidenav {
         display: none;
     }
+    
     header {
         display: block
     }
+    
     .subheading {
         padding-left: 3%;
         padding-bottom: 5%;
     }
+    
     #about img {
         width: 70%;
     }
+    
     .about-para {
         margin-bottom: 15%;
     }
+    
     .about-para p {
         width: 100%;
         padding: 0% 10%;
     }
+    
     #hobbies {
         margin-bottom: 10%;
     }
+    
     #hobbies img {
         width: 100%;
     }
+    
     .dummy {
         padding-bottom: 20%;
     }
+    
     .hobbies-para p,
     .hobbies-para h3 {
         width: 100%;
         padding: 0% 10%;
     }
     /* g */
+    
     .container#first-quote {
         padding-bottom: 30%
     }
+    
     #projects .row.sc {
         margin: auto;
     }
+    
     .container#bubble {
         margin-bottom: 40%;
     }
+    
     #bubble .bubble-box {
         margin: 0% 15%;
     }
+    
     #bubble-intro {
         margin-top: 5%;
         margin-bottom: 5%;
     }
+    
     .bubble-box h4 {
         font-size: 1em;
     }
+    
     #bubble a {
         padding: 50% 100%;
         font-size: 0.4em;
         line-height: 2em;
     }
+    
     #contact h4 {
         font-size: 1em;
     }
+    
     #contact .item {
         padding-top: 1%;
         margin: auto;
         font-size: 0.8em;
     }
+    
     #contact a {
         font-size: 2em;
     }
+    
     #contact .col-6 {
         padding-right: 2%;
     }
+    
     #contact .col {
         padding-left: 2%
     }
+    
     .btn7 {
         width: 120px;
     }
+    
     #footer p {
         font-size: 0.7em;
         margin: auto;
     }
+    
     #footer {
         margin-bottom: 10%;
     }
