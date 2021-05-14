@@ -46,8 +46,8 @@ body {
     font-weight: bold;
     font-size: 1.5em;
     position: relative;
-    padding: 0% 8%;
-    margin-bottom: 6%;
+    padding: 0% 0%;
+    margin: 0%;
 }
 
 
@@ -66,8 +66,8 @@ body {
     padding: 0px;
     position: absolute;
     z-index: 1;
-    background-image: -webkit-radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
-    background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min.jpg);
+    background-image: -webkit-radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
+    background-image: radial-gradient(rgba(0, 0, 255, 0.3), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     background-size: 100%;
     background-position-y: 50%;
     font-size: 1.2em;
@@ -281,7 +281,7 @@ nav li span:hover:after {
 
 .about-para p {
     width: 100%;
-    padding: 0% 20%;
+    padding: 0% 10%;
 }
 
 
