@@ -80,7 +80,7 @@ font-size: 1em;
     /* ABOUT ME */
     /* ----------------------------------------------- */
     .about-para {
-        background-color: yellow;
+        background-color: blue;
         padding: 0 25px 75px 25px;
     }
     /* ----------------------------------------------- */
@@ -117,7 +117,7 @@ font-size: 1em;
         margin-top: 75px;
     }
     .project-box {
-        padding: 0px 25px 20px 25px
+        padding: 0px 25px 15px 25px
     }
     .project-box h3 {
         padding: 10px 0px;
@@ -146,7 +146,7 @@ font-size: 1em;
     /* THOUGHT BUBBLE*/
     /* ----------------------------------------------- */
     #bubble-intro {
-        padding: 75px 30px;
+        padding: 75px 25px;
     }
     #bubble-intro p {
         font-size: 1.5rem;
