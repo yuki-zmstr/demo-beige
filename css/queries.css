@@ -39,6 +39,9 @@ font-size: 1em;
         padding: 0 20px 100px 20px;
         margin: auto
     }
+    .subheading {
+        font-size: 2.5rem;
+    }
     /* ----------------------------------------------- */
     /* WELCOME PAGE */
     /* ----------------------------------------------- */
@@ -77,7 +80,7 @@ font-size: 1em;
     /* ABOUT ME */
     /* ----------------------------------------------- */
     .about-para {
-        background-color: brown;
+        background-color: yellow;
         padding: 0 25px 75px 25px;
     }
     /* ----------------------------------------------- */
@@ -114,7 +117,7 @@ font-size: 1em;
         margin-top: 75px;
     }
     .project-box {
-        padding: 0px 25px 25px 25px
+        padding: 0px 25px 20px 25px
     }
     .project-box h3 {
         padding: 10px 0px;
@@ -143,7 +146,7 @@ font-size: 1em;
     /* THOUGHT BUBBLE*/
     /* ----------------------------------------------- */
     #bubble-intro {
-        padding: 75px 50px;
+        padding: 75px 30px;
     }
     #bubble-intro p {
         font-size: 1.5rem;
@@ -152,6 +155,9 @@ font-size: 1em;
         width: auto;
         margin: 0 75px;
         margin-bottom: 50px
+    }
+    #bubble .bubble-box h4 {
+        font-size: 1.3rem;
     }
     #bubble a {
         padding: 5px 15px;
@@ -166,10 +172,10 @@ font-size: 1em;
         padding-bottom: 0px;
     }
     #contact .col-6 {
-        padding-right: 20px
+        padding-right: 15px
     }
     #contact .col {
-        padding-left: 20px
+        padding-left: 15px
     }
     #contact a {
         font-size: 3rem;
