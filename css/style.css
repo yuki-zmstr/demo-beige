@@ -377,6 +377,7 @@ nav li span:hover:after {
     font-size: 1rem;
     padding: 0px 30px;
     margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .project-box img:hover {
@@ -391,6 +392,7 @@ nav li span:hover:after {
     display: flex;
     justify-content: center;
     clear: both;
+    margin: 20px 0px
 }
 
 .project-box i {
