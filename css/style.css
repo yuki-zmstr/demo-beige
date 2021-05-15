@@ -264,12 +264,11 @@ nav li span:hover:after {
 /* ----------------------------------------------- */
 
 #about {
-    background-color: orange;
     margin-top: 10%;
 }
 
 .about-para {
-    background-color: yellow;
+    background-color: blue;
     padding: 0 50px 100px 50px;
     width: 100%;
     margin: 0px

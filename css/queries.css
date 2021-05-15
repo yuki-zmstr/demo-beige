@@ -27,13 +27,31 @@
 
 @media only screen and (min-width:200px) and (max-width: 767px) {
     body {
-        font-size: 3vw;
+        font-size: 2.5vw;
     }
     #welcome {
         background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     }
     #welcome p {
         letter-spacing: none;
+    }
+    #content .container {
+        border: 2px solid green;
+        padding: 0 25px 150px 25px;
+        margin: auto
+    }
+    .about-para {
+        background-color: yellow;
+        padding: 0 25px 100px 25px;
+    }
+    .hobbies-para {
+        background-color: pink;
+        padding: 100px 25px 0px 25px;
+    }
+    #hobbies h3 {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        text-align: center;
     }
     /* #content .container {
         padding: 0% 5%;
