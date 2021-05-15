@@ -360,16 +360,8 @@ nav li span:hover:after {
     text-align: center;
 }
 
-.project-box img {
-    width: 100%;
-    height: 100%;
-    margin: auto;
-    display: block;
-    margin-top: 40px;
-    margin-bottom: 10px
-}
-
 .project-box p {
+    background-color: lightblue;
     text-align: center;
     font-size: 1rem;
     padding: 0px 30px;
@@ -377,12 +369,13 @@ nav li span:hover:after {
 }
 
 .project-box img {
-    width: 90%;
-    height: 90%;
+    background-color: red;
+    width: 100%;
+    height: 100%;
     margin: auto;
     display: block;
-    margin-top: 50px;
-    margin-bottom: 50px
+    margin-top: 40px;
+    margin-bottom: 20px
 }
 
 .project-box img:hover {
