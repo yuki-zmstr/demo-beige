@@ -268,7 +268,7 @@ nav li span:hover:after {
 }
 
 .about-para {
-    background-color: red;
+    /* background-color: red; */
     padding: 0 50px 100px 50px;
     width: 100%;
     margin: 0px
@@ -362,7 +362,7 @@ nav li span:hover:after {
 }
 
 .project-box img {
-    background-color: red;
+    /* background-color: red; */
     width: 100%;
     height: 100%;
     margin: auto;
@@ -372,7 +372,7 @@ nav li span:hover:after {
 }
 
 .project-box p {
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     text-align: center;
     font-size: 1rem;
     padding: 0px 30px;
@@ -396,7 +396,7 @@ nav li span:hover:after {
 }
 
 .project-box i {
-    background-color: yellow;
+    /* background-color: yellow; */
     font-size: 2rem;
     padding: 0 30px 0 30px;
     color: rgb(197, 128, 0);

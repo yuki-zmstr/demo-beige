@@ -117,12 +117,11 @@ font-size: 1em;
         margin-top: 75px;
     }
     .project-box {
-        padding: 0px 25px 15px 25px
+        padding: 0px 25px
     }
     .project-box h3 {
         padding: 10px 0px;
         font-size: 1.5rem;
-        width: 90%;
     }
     .project-box img {
         width: 90%;
