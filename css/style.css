@@ -38,7 +38,7 @@ body {
 }
 
 #content .container {
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     padding: 0 25px 200px 25px;
     margin: auto
 }

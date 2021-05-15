@@ -30,7 +30,7 @@ font-size: 1em;
     /* SET UP */
     /* ----------------------------------------------- */
     body {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
     #logo {
         width: 40%;
@@ -46,9 +46,9 @@ font-size: 1em;
         background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     }
     #welcome p {
-        font-size: 3rem;
+        font-size: 2.5rem;
         letter-spacing: none;
-        color: red;
+        color: white;
     }
     /* ----------------------------------------------- */
     /* TOP NAV */
@@ -71,12 +71,13 @@ font-size: 1em;
     }
     .selection li {
         font-size: 2rem;
+        line-height: 5rem;
     }
     /* ----------------------------------------------- */
     /* ABOUT ME */
     /* ----------------------------------------------- */
     .about-para {
-        background-color: lightskyblue;
+        background-color: brown;
         padding: 0 25px 75px 25px;
     }
     /* ----------------------------------------------- */
@@ -142,14 +143,10 @@ font-size: 1em;
     /* THOUGHT BUBBLE*/
     /* ----------------------------------------------- */
     #bubble-intro {
-        text-align: center;
-        padding: 100px 40px;
-    }
-    /* ----------------------------------------------- */
-    /* THOUGHT BUBBLE*/
-    /* ----------------------------------------------- */
-    #bubble-intro {
         padding: 75px 50px;
+    }
+    #bubble-intro p {
+        font-size: 1.2rem;
     }
     #bubble .bubble-box {
         width: auto;
@@ -159,13 +156,13 @@ font-size: 1em;
     #bubble a {
         padding: 5px 15px;
         font-size: 0.8rem;
-        line-height: 5px;
+        line-height: 10px;
     }
     /* ----------------------------------------------- */
     /* CONTACT */
     /* ----------------------------------------------- */
     .container#contact {
-        margin-bottom: 20px;
+        margin-bottom: 50px;
         padding-bottom: 0px;
     }
     #contact .col-6 {
@@ -184,6 +181,9 @@ font-size: 1em;
     .container#footer {
         margin-bottom: 0px;
         padding-bottom: 0px;
+    }
+    #footer p {
+        font-size: 1rem;
     }
     /* #content .container {
 padding: 0% 5%;
