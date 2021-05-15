@@ -268,7 +268,7 @@ nav li span:hover:after {
 }
 
 .about-para {
-    background-color: red;
+    /* background-color: red; */
     padding: 0 50px 100px 50px;
     width: 100%;
     margin: 0px
