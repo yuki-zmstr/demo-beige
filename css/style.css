@@ -24,7 +24,7 @@ body {
 }
 
 #main {
-    visibility: hidden;
+    visibility: true;
 }
 
 #logo {
@@ -517,7 +517,13 @@ nav li span:hover:after {
 }
 
 
-/* Footer */
+/* ----------------------------------------------- */
+
+
+/* FOOTER */
+
+
+/* ----------------------------------------------- */
 
 .container#footer {
     text-align: center;
