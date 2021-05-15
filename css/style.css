@@ -47,9 +47,9 @@ body {
     text-align: left;
     font-weight: bold;
     font-size: 1.75rem;
-    padding: 0%;
+    padding: 0px;
     padding-left: 20px;
-    margin: 0%;
+    margin: 0px;
 }
 
 
@@ -268,7 +268,7 @@ nav li span:hover:after {
 }
 
 .about-para {
-    background-color: blue;
+    background-color: red;
     padding: 0 50px 100px 50px;
     width: 100%;
     margin: 0px
