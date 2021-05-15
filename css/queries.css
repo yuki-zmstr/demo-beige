@@ -2,18 +2,18 @@
 
 
 /* @media only screen and (min-width:769px) and (max-width: 1024px) {
-    body {
-        font-size: 1.2em;
-    }
-    #welcome {
-        font-size: 1.5em;
-    }
-    #about img {
-        height: 100px;
-    }
-    .project-box h3 {
-        font-size: 1em;
-    }
+body {
+font-size: 1.2em;
+}
+#welcome {
+font-size: 1.5em;
+}
+#about img {
+height: 100px;
+}
+.project-box h3 {
+font-size: 1em;
+}
 } */
 
 
@@ -46,8 +46,9 @@
         background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     }
     #welcome p {
-        font-size: 2rem;
+        font-size: 3rem;
         letter-spacing: none;
+        color: red;
     }
     /* ----------------------------------------------- */
     /* TOP NAV */
@@ -75,7 +76,7 @@
     /* ABOUT ME */
     /* ----------------------------------------------- */
     .about-para {
-        background-color: gray;
+        background-color: lightskyblue;
         padding: 0 25px 75px 25px;
     }
     /* ----------------------------------------------- */
@@ -144,101 +145,141 @@
         text-align: center;
         padding: 100px 40px;
     }
-    /* #content .container {
-        padding: 0% 5%;
-        margin-bottom: 10%;
-    }
-    #logo {
-        width: 40%;
-        height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-    #sidenav {
-        display: none;
-    }
-    header {
-        display: block
-    }
-    .subheading {
-        padding-left: 3%;
-        padding-bottom: 5%;
-    }
-    #about img {
-        width: 70%;
-    }
-    .about-para {
-        margin-bottom: 15%;
-    }
-    .about-para p {
-        width: 100%;
-        padding: 0% 10%;
-    }
-    #hobbies {
-        margin-bottom: 10%;
-    }
-    #hobbies img {
-        width: 100%;
-    }
-    .dummy {
-        padding-bottom: 20%;
-    }
-    .hobbies-para p,
-    .hobbies-para h3 {
-        width: 100%;
-        padding: 0% 10%;
-    }
-    .container#first-quote {
-        padding-bottom: 30%
-    }
-    #projects .row.sc {
-        margin: auto;
-    }
-    .container#bubble {
-        margin-bottom: 40%;
+    /* ----------------------------------------------- */
+    /* THOUGHT BUBBLE*/
+    /* ----------------------------------------------- */
+    #bubble-intro {
+        padding: 75px 50px;
     }
     #bubble .bubble-box {
-        margin: 0% 15%;
-    }
-    #bubble-intro {
-        margin-top: 5%;
-        margin-bottom: 5%;
-    }
-    .bubble-box h4 {
-        font-size: 1em;
+        width: auto;
+        margin: 0 75px;
+        margin-bottom: 50px
     }
     #bubble a {
-        padding: 50% 100%;
-        font-size: 0.4rem;
-        line-height: 2rem;
-    }
-    #contact h4 {
-        font-size: 1rem;
-    }
-    #contact .item {
-        padding-top: 1%;
-        margin: auto;
+        padding: 5px 15px;
         font-size: 0.8rem;
+        line-height: 5px;
     }
-    #contact a {
-        font-size: 2rem;
+    /* ----------------------------------------------- */
+    /* CONTACT */
+    /* ----------------------------------------------- */
+    .container#contact {
+        margin-bottom: 20px;
+        padding-bottom: 0px;
     }
     #contact .col-6 {
-        padding-right: 2%;
+        padding-right: 20px
     }
     #contact .col {
-        padding-left: 2%
+        padding-left: 20px
     }
-    .btn7 {
-        width: 120px;
+    #contact a {
+        font-size: 3rem;
+        margin: 0 10px;
     }
-    #footer p {
-        font-size: 0.7rem;
-        margin: auto;
+    /* ----------------------------------------------- */
+    /* FOOTER */
+    /* ----------------------------------------------- */
+    .container#footer {
+        margin-bottom: 0px;
+        padding-bottom: 0px;
     }
-    #footer {
-        margin-bottom: 10%;
-    } */
+    /* #content .container {
+padding: 0% 5%;
+margin-bottom: 10%;
+}
+#logo {
+width: 40%;
+height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#sidenav {
+display: none;
+}
+header {
+display: block
+}
+.subheading {
+padding-left: 3%;
+padding-bottom: 5%;
+}
+#about img {
+width: 70%;
+}
+.about-para {
+margin-bottom: 15%;
+}
+.about-para p {
+width: 100%;
+padding: 0% 10%;
+}
+#hobbies {
+margin-bottom: 10%;
+}
+#hobbies img {
+width: 100%;
+}
+.dummy {
+padding-bottom: 20%;
+}
+.hobbies-para p,
+.hobbies-para h3 {
+width: 100%;
+padding: 0% 10%;
+}
+.container#first-quote {
+padding-bottom: 30%
+}
+#projects .row.sc {
+margin: auto;
+}
+.container#bubble {
+margin-bottom: 40%;
+}
+#bubble .bubble-box {
+margin: 0% 15%;
+}
+#bubble-intro {
+margin-top: 5%;
+margin-bottom: 5%;
+}
+.bubble-box h4 {
+font-size: 1em;
+}
+#bubble a {
+padding: 50% 100%;
+font-size: 0.4rem;
+line-height: 2rem;
+}
+#contact h4 {
+font-size: 1rem;
+}
+#contact .item {
+padding-top: 1%;
+margin: auto;
+font-size: 0.8rem;
+}
+#contact a {
+font-size: 2rem;
+}
+#contact .col-6 {
+padding-right: 2%;
+}
+#contact .col {
+padding-left: 2%
+}
+.btn7 {
+width: 120px;
+}
+#footer p {
+font-size: 0.7rem;
+margin: auto;
+}
+#footer {
+margin-bottom: 10%;
+} */
 }
