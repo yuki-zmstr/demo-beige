@@ -26,16 +26,16 @@
 /* mobile */
 
 @media only screen and (min-width:200px) and (max-width: 767px) {
-    /* body {
-        font-size: 0.8em;
-    } */
+    body {
+        font-size: 3vw;
+    }
     #welcome {
         background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
     }
     #welcome p {
         letter-spacing: none;
     }
-    #content .container {
+    /* #content .container {
         padding: 0% 5%;
         margin-bottom: 10%;
     }
@@ -131,5 +131,5 @@
     }
     #footer {
         margin-bottom: 10%;
-    }
+    } */
 }
