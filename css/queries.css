@@ -26,34 +26,68 @@
 /* mobile */
 
 @media only screen and (min-width:200px) and (max-width: 767px) {
+    /* ----------------------------------------------- */
+    /* SET UP */
+    /* ----------------------------------------------- */
     body {
         font-size: 2.5vw;
     }
     #logo {
         width: 40%;
     }
-    #welcome {
-        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
-    }
-    #welcome p {
-        font-size: 1.5rem;
-        letter-spacing: none;
-    }
     #content .container {
         padding: 0 20px 100px 20px;
         margin: auto
     }
+    /* ----------------------------------------------- */
+    /* WELCOME PAGE */
+    /* ----------------------------------------------- */
+    #welcome {
+        background-image: radial-gradient(rgba(0, 0, 255, 0.1), rgba(0, 0, 218, 0)), url(../img/bg-min-min.jpg);
+    }
+    #welcome p {
+        font-size: 2rem;
+        letter-spacing: none;
+    }
+    /* ----------------------------------------------- */
+    /* TOP NAV */
+    /* ----------------------------------------------- */
+    header {
+        margin-top: 20px;
+    }
+    #btn_menu i {
+        font-size: 2rem;
+    }
+    #topnav p {
+        font-size: 2rem;
+    }
+    /* ----------------------------------------------- */
+    /* HIDDEN BAR */
+    /* ----------------------------------------------- */
+    .selection {
+        top: 150px;
+        right: 30px;
+    }
+    .selection li {
+        font-size: 2rem;
+    }
+    /* ----------------------------------------------- */
+    /* ABOUT ME */
+    /* ----------------------------------------------- */
     .about-para {
         background-color: gray;
         padding: 0 25px 75px 25px;
     }
+    /* ----------------------------------------------- */
+    /* HOBBIES */
+    /* ----------------------------------------------- */
     #hobbies h3 {
         font-size: 1.5rem;
         margin-bottom: 25px;
         text-align: center;
     }
     .hobbies-para {
-        background-color: pink;
+        /* background-color: pink; */
         padding: 75px 25px 0px 25px;
     }
     .dummy {
@@ -64,10 +98,16 @@
         width: 100%;
         height: 100%;
     }
+    /* ----------------------------------------------- */
+    /* FIRST QUOTE*/
+    /* ----------------------------------------------- */
     .container#first-quote {
         font-size: 1.5rem;
         text-align: center;
     }
+    /* ----------------------------------------------- */
+    /* PROJECTS*/
+    /* ----------------------------------------------- */
     #projects .col-lg {
         margin-top: 75px;
     }
@@ -80,17 +120,29 @@
         width: 90%;
     }
     .project-box img {
+        width: 90%;
+        height: 90%;
         margin-top: 20px;
-        margin-bottom: 10px
+        margin-bottom: 20px
     }
     .project-box p {
-        font-size: 1rem;
+        font-size: 1.2rem;
         padding: 0px 10px;
     }
     .project-box i {
-        font-size: 2rem;
+        font-size: 2.5rem;
         padding: 0 15px;
-        color: rgb(197, 128, 0);
+    }
+    .many-more {
+        font-size: 2rem;
+        font-weight: 800;
+    }
+    /* ----------------------------------------------- */
+    /* THOUGHT BUBBLE*/
+    /* ----------------------------------------------- */
+    #bubble-intro {
+        text-align: center;
+        padding: 100px 40px;
     }
     /* #content .container {
         padding: 0% 5%;
