@@ -10,255 +10,346 @@
         function gtag() {
             dataLayer.push(arguments);
         }
-        gtag('js', new Date());
+        gtag("js", new Date());
 
-        gtag('config', 'G-0DRB8K59TW');
+        gtag("config", "G-0DRB8K59TW");
     </script>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descrition" content="Yukihide is a Singapore-Japan mix, currently an undergraduate at the National University of Singapore.">
-    <meta name="keywords" content="Yukihide">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="descrition" content="Yukihide is a Singapore-Japan mix, currently an undergraduate at the National University of Singapore." />
+    <meta name="keywords" content="Yukihide" />
 
-    <link rel="icon" href="img/favicon.ico">
+    <link rel="icon" href="img/favicon.ico" />
 
     <!-- normalize across browsers -->
-    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/normalize.css" />
 
     <!-- icons -->
     <script src="https://kit.fontawesome.com/e19efbd276.js" crossorigin="anonymous"></script>
 
     <!-- containers -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
 
     <!-- basic font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;800&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng&display=swap" rel="stylesheet" />
 
     <!-- buttons -->
-    <link rel="stylesheet" href="css/buttons.css">
+    <link rel="stylesheet" href="css/buttons.css" />
 
     <!-- custom styling -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- media queries -->
-    <link rel="stylesheet" href="css/queries.css">
+    <link rel="stylesheet" href="css/queries.css" />
 
     <!-- animations -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="js/script.js"></script>
+    <!-- <script src="js/script.js"></script> -->
 
     <title>Yukihide Takahashi</title>
-
 </head>
 
 <body>
-    <img src="img/logo.gif" alt="" id="logo">
+    <img src="img/logo.gif" alt="" id="logo" />
     <div id="main">
         <div class="row" id="welcome">
-            <p>Welcome<br><span id="jp">こんにちは</span><br><span id="ch">你好</span></p>
+            <p>
+                Welcome<br /><span id="jp">こんにちは</span><br /><span id="ch">你好</span
+          >
+        </p>
+      </div>
+      <header class="nav-down">
+        <div class="row" id="topnav">
+          <div class="col-5">
+            <p>Yukihide Takahashi</p>
+          </div>
+          <div class="col" id="btn_menu"><i class="fas fa-bars"></i></div>
         </div>
-        <header class="nav-down">
-            <div class="row" id="topnav">
-                <div class="col-5">
-                    <p>Yukihide Takahashi</p>
+      </header>
+      <div class="selection">
+        <ul>
+          <li><span onclick="window.location='#about'">About Me</span></li>
+                <li><span onclick="window.location='#hobbies'">Hobbies</span></li>
+                <li><span onclick="window.location='#projects'">Projects</span></li>
+                <li><span onclick="window.location='#bubble'">Blog</span></li>
+                <li>
+                    <span onclick="window.location='#contact'">Get in touch</span>
+                </li>
+                <li>
+                    <span onclick="window.location='https://yuki-zmstr.github.io/jp'">日本語ページへ</span
+            >
+          </li>
+        </ul>
+      </div>
+      <nav class="sidenav" id="sidenav">
+        <div class="row">
+          <p>Yukihide<br />Takahashi</p>
+        </div>
+        <ul>
+          <li><span onclick="window.location='#about'">About Me</span></li>
+                <li><span onclick="window.location='#hobbies'">Hobbies</span></li>
+                <li><span onclick="window.location='#projects'">Projects</span></li>
+                <li><span onclick="window.location='#bubble'">Blog</span></li>
+                <li>
+                    <span onclick="window.location='#contact'">Get in touch</span>
+                </li>
+                <li>
+                    <span onclick="window.location='https://yuki-zmstr.github.io/jp'">日本語ページへ</span
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="container-fluid" id="content">
+        <div class="row">
+          <section class="container" id="about">
+            <div class="row">
+              <h2 class="subheading sc">01&nbsp;&nbsp;&nbspAbout Me</h2>
+              <img
+                class="sc"
+                alt="Yukihide's profile picture"
+                src="img/pp.png"
+              />
+              <div class="row about-para sc">
+                <p>Hi there! My name is Yukihide.</p>
+                <p>
+                  I am a Singapore-Japan mix currently enrolled at the National
+                  University of Singapore, pursuing a Bachelor of Engineering
+                  under Industrial and Systems Engineering.
+                </p>
+                <p>
+                  I spent my years growing up in three different countries -
+                  Singapore, Taiwan, and Japan, each for about six years. After
+                  serving National Service in Singapore for two years, I
+                  matriculated to NUS in August 2020.
+                </p>
+              </div>
+              <div class="row about-para sc">
+                <p>
+                  Plan, execute, reflect, improve. I learn best through this
+                  iterative process. Being an active learner, I am open to
+                  various kinds of experiences where I can hone both hard and
+                  soft skills.
+                </p>
+                <p>
+                  I've recently been exploring the field of Machine Learning.
+                  It's truly amazing how a well-trained model can assist in
+                  decision making, from predicting numerical values to assigning
+                  classifications, and also how easy it is to build such a model
+                  with open-source code.
+                </p>
+              </div>
+              <div class="row about-para sc">
+                <p>
+                  I am fluent in English and Japanese, as well as conversational
+                  Chinese.
+                </p>
+                <p>Please feel free to reach out!</p>
+              </div>
+            </div>
+          </section>
+          <section class="container" id="hobbies">
+            <div class="row">
+              <h2 class="subheading sc">02&nbsp;&nbsp;&nbsp;Hobbies</h2>
+              <div class="row hobbies-para sc dummy">
+                <h3>Volleyball</h3>
+                <p>
+                  10 years since I first touched a volleyball - now I'm deeply
+                  in love with the sport. It brought lots of things into my
+                  life, from great people to great challenges, not to mention a
+                  motivation to stay fit.
+                </p>
+              </div>
+              <div class="row hobbies-para sc">
+                <h3>Adventure</h3>
+                <p>
+                  I love to explore new sceneries. Not just for the photo ops,
+                  but also the process of overcoming physical and mental
+                  challenges along the way.
+                </p>
+                <p>
+                  This photo was taken from Mount. Kumotori in Tokyo, standing
+                  2,017 metres. Truly interesting things happened when the
+                  oxygen concentration reached 80 percent of what we usually
+                  breathe...
+                </p>
+              </div>
+              <img
+                class="sc"
+                alt="View from Mount. Kumotori"
+                src="img/kumo-min.jpg"
+              />
+            </div>
+          </section>
+          <section class="container sc" id="first-quote">
+            <p>I like to tell myself,</p>
+            <p>
+              "The human brain is made to learn. Feed it the experience it
+              needs."
+            </p>
+          </section>
+          <section class="container" id="projects">
+            <div class="row">
+              <h2 class="subheading sc">03&nbsp;&nbsp;&nbsp;Projects</h2>
+            </div>
+            <div class="row sc">
+              <div class="col-lg">
+                <div class="project-box">
+                  <h3>Performance Tracking System</h3>
+                  <div class="row">
+                    <img alt="Snippet of system in action" src="img/NS.PNG" />
+                  </div>
+                  <div>
+                    <p>
+                      Realtime tracking of physical outputs of a product line;
+                      developed at an E-commerce startup. Allows supervisors on
+                      the ground to easily monitor each station's progress.
+                    </p>
+                    <div class="proj-icons">
+                      <i class="fab fa-python"></i>
+                      <i class="fab fa-google-drive"></i>
+                    </div>
+                  </div>
                 </div>
-                <div class="col" id="btn_menu"><i class="fas fa-bars"></i></div>
+              </div>
+              <div class="col-lg">
+                <div class="project-box">
+                  <h3>Resource Distribution Tool</h3>
+                  <div class="row">
+                    <img
+                      alt="Snippet of tool in action"
+                      src="img/IE1111R.PNG"
+                    />
+                  </div>
+                  <div>
+                    <p>
+                      Calculates optimal resource distribution in a
+                      post-disaster scenario. Developed for NUS module, IE1111R
+                      (Industrial & Systems Engineering Principles & Practice
+                      I).
+                    </p>
+                    <div class="proj-icons">
+                      <i class="fas fa-file-excel"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </header>
-        <div class="selection">
-            <ul>
-                <li><span onclick="window.location='#about'">About Me</span></li>
-                <li><span onclick="window.location='#hobbies'">Hobbies</span></li>
-                <li><span onclick="window.location='#projects'">Projects</span></li>
-                <li><span onclick="window.location='#bubble'">Blog</span></li>
-                <li><span onclick="window.location='#contact'">Get in touch</span></li>
-                <li><span onclick="window.location='https://yuki-zmstr.github.io/jp'">日本語ページへ</span></li>
-            </ul>
-        </div>
-        <nav class="sidenav" id="sidenav">
+            <div class="row sc">
+              <div class="col-lg">
+                <div class="project-box">
+                  <h3>And of course, this page</h3>
+                  <div class="row">
+                    <img alt="Snippet of website" src="img/website.png" />
+                  </div>
+                  <div>
+                    <p>My first attempt at web development :)</p>
+                    <div class="proj-icons">
+                      <i class="fab fa-html5"></i>
+                      <i class="fab fa-css3-alt"></i>
+                      <i class="fab fa-js"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg"></div>
+            </div>
+            <p class="many-more sc">And many more to come!</p>
+          </section>
+          <section class="container" id="bubble">
             <div class="row">
-                <p>Yukihide<br>Takahashi</p>
+              <h2 class="subheading sc">
+                04&nbsp;&nbsp;&nbsp;Open Top; Open Ended
+              </h2>
             </div>
-            <ul>
-                <li><span onclick="window.location='#about'">About Me</span></li>
-                <li><span onclick="window.location='#hobbies'">Hobbies</span></li>
-                <li><span onclick="window.location='#projects'">Projects</span></li>
-                <li><span onclick="window.location='#bubble'">Blog</span></li>
-                <li><span onclick="window.location='#contact'">Get in touch</span></li>
-                <li><span onclick="window.location='https://yuki-zmstr.github.io/jp'">日本語ページへ</span></li>
-            </ul>
-        </nav>
-        <div class="container-fluid" id="content">
+            <div class="row sc" id="bubble-intro">
+              <p>
+                I hope scientists are right when they say daydreaming improves
+                creativity, because I do it a lot...
+              </p>
+              <a
+                class="btn10"
+                target="_blank"
+                href="https://opentopopenended.wordpress.com/"
+                >My recent ponders</a
+              >
+            </div>
+
+            <!-- <div class="row bubble-box sc">
+              <h4>On sustainability</h4>
+              <div class="row">
+                <div class="col">
+                  <p>For any activists out there, I’m sorry, this post isn’t about the SDGs. It’s much more personal.</p>
+                </div>
+                <div class="col-2">
+                  <a class="btn10" href="https://opentopopenended.wordpress.com/2021/07/06/on-sustainability/">Read More</a>
+                </div>
+              </div>
+            </div> -->
+          </section>
+          <section class="container" id="contact">
             <div class="row">
-                <section class="container" id="about">
-                    <div class="row">
-                        <h2 class="subheading sc">
-                            01&nbsp;&nbsp;&nbspAbout Me
-                        </h2>
-                        <img class="sc" alt="Yukihide's profile picture" src="img/pp.png">
-                        <div class="row about-para sc">
-                            <p>Hi there! My name is Yukihide.</p>
-                            <p>I am a Singapore-Japan mix currently enrolled at the National University of Singapore, pursuing a Bachelor of Engineering under Industrial and Systems Engineering.</p>
-                            <p>I spent my years growing up in three different countries - Singapore, Taiwan, and Japan, each for about six years. After serving National Service in Singapore for two years, I matriculated to NUS in August 2020.</p>
-                        </div>
-                        <div class="row about-para sc">
-                            <p>Plan, execute, reflect, improve. I learn best through this iterative process. Being an active learner, I am open to various kinds of experiences where I can hone both hard and soft skills.</p>
-                            <p>I've recently been exploring the field of Machine Learning. It's truly amazing how a well-trained model can assist in decision making, from predicting numerical values to assigning classifications, and also how easy it is to
-                                build such a model with open-source code.</p>
-                        </div>
-                        <div class="row about-para sc">
-                            <p>I am fluent in English and Japanese, as well as conversational Chinese.</p>
-                            <p>Please feel free to reach out!</p>
-                        </div>
-                    </div>
-                </section>
-                <section class="container" id="hobbies">
-                    <div class="row">
-                        <h2 class="subheading sc">
-                            02&nbsp;&nbsp;&nbsp;Hobbies
-                        </h2>
-                        <div class="row hobbies-para sc dummy">
-                            <h3>Volleyball</h3>
-                            <p>10 years since I first touched a volleyball - now I'm deeply in love with the sport. It brought lots of things into my life, from great people to great challenges, not to mention a motivation to stay fit.</p>
-                        </div>
-                        <div class="row hobbies-para sc">
-                            <h3>Adventure</h3>
-                            <p>I love to explore new sceneries. Not just for the photo ops, but also the process of overcoming physical and mental challenges along the way.</p>
-                            <p>This photo was taken from Mount. Kumotori in Tokyo, standing 2,017 metres. Truly interesting things happened when the oxygen concentration reached 80 percent of what we usually breathe...</p>
-                        </div>
-                        <img class="sc" alt="View from Mount. Kumotori" src="img/kumo-min.jpg">
-                    </div>
-                </section>
-                <section class="container sc" id="first-quote">
-                    <p>I like to tell myself,</p>
-                    <p>"The human brain is made to learn. Feed it the experience it needs."</p>
-                </section>
-                <section class="container" id="projects">
-                    <div class="row">
-                        <h2 class="subheading sc">03&nbsp;&nbsp;&nbsp;Projects</h2>
-                    </div>
-                    <div class="row sc">
-                        <div class="col-lg">
-                            <div class="project-box">
-                                <h3>Performance Tracking System</h3>
-                                <div class="row">
-                                    <img alt="Snippet of system in action" src="img/NS.PNG">
-                                </div>
-                                <div>
-                                    <p>Realtime tracking of physical outputs of a product line; developed at an E-commerce startup. Allows supervisors on the ground to easily monitor each station's progress.</p>
-                                    <div class="proj-icons">
-                                        <i class="fab fa-python"></i>
-                                        <i class="fab fa-google-drive"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                            <div class="project-box">
-                                <h3>Resource Distribution Tool</h3>
-                                <div class="row">
-                                    <img alt="Snippet of tool in action" src="img/IE1111R.PNG">
-                                </div>
-                                <div>
-                                    <p>Calculates optimal resource distribution in a post-disaster scenario. Developed for NUS module, IE1111R (Industrial & Systems Engineering Principles & Practice I).</p>
-                                    <div class="proj-icons">
-                                        <i class="fas fa-file-excel"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row sc">
-                        <div class="col-lg">
-                            <div class="project-box">
-                                <h3>And of course, this page</h3>
-                                <div class="row">
-                                    <img alt="Snippet of website" src="img/website.png">
-                                </div>
-                                <div>
-                                    <p>My first attempt at web development :)</p>
-                                    <div class="proj-icons">
-                                        <i class="fab fa-html5"></i>
-                                        <i class="fab fa-css3-alt"></i>
-                                        <i class="fab fa-js"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg">
-                        </div>
-                    </div>
-                    <p class="many-more sc">And many more to come!</p>
-                </section>
-                <section class="container" id="bubble">
-                    <div class="row">
-                        <h2 class="subheading sc">04&nbsp;&nbsp;&nbsp;Yuki's Thought Bubble</h2>
-                    </div>
-                    <div class="row sc" id="bubble-intro">
-                        <p>I hope scientists are right when they say daydreaming improves creativity, because I do it a lot...<br><br>Just some of my recent ponders.</p>
-                    </div>
-                    <div class="row bubble-box sc">
-                        <h4>But patience is wisdom</h4>
-                        <div class="row">
-                            <div class="col">
-                                <p>Isn't it?</p>
-                            </div>
-                            <div class="col-2">
-                                <a class="btn10">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <section class="container" id="contact">
-                    <div class="row">
-                        <div class="row">
-                            <h2 class="subheading sc2">05&nbsp;&nbsp;&nbsp;Get in touch</h2>
-                        </div>
-                        <div class="row item sc2">
-                            <div class="col-6">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div class="col">
-                                <p>yukihide.t@outlook.com</p>
-                            </div>
-                        </div>
-                        <div class="row item sc2">
-                            <div class="col-6">
-                                <i class="fas fa-phone"></i>
-                            </div>
-                            <div class="col">
-                                <p>+65 8183 2057</p>
-                            </div>
-                        </div>
-                        <div class="row item sc2">
-                            <ul>
-                                <li>
-                                    <a href="https://www.facebook.com/profile.php?id=100009808110440" target="_blank" class="fab fa-facebook-square"></a>
-                                    <a href="https://www.linkedin.com/in/yukihide-takahashi-68366a1b7/" target="_blank" class="fab fa-linkedin"></a>
-                                    <a href="https://www.instagram.com/yuki.zmstr/?hl=en" target="_blank" class="fab fa-instagram"></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
-                <section class="container sc3" id="footer">
-                    <div class="row">
-                        <a class="btn7" href="#about">Return to Top</a>
-                    </div>
-                    <div class="row">
-                        <p>
-                            Thank you for your time. &#169; 2021 Yukihide Takahashi
-                        </p>
-                    </div>
-                </section>
+              <div class="row">
+                <h2 class="subheading sc2">05&nbsp;&nbsp;&nbsp;Get in touch</h2>
+              </div>
+              <div class="row item sc2">
+                <div class="col-6">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="col">
+                  <p>yukihide.t@outlook.com</p>
+                </div>
+              </div>
+              <div class="row item sc2">
+                <div class="col-6">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div class="col">
+                  <p>+65 8183 2057</p>
+                </div>
+              </div>
+              <div class="row item sc2">
+                <ul>
+                  <li>
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100009808110440"
+                      target="_blank"
+                      class="fab fa-facebook-square"
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/yukihide-takahashi-68366a1b7/"
+                      target="_blank"
+                      class="fab fa-linkedin"
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/yuki.zmstr/?hl=en"
+                      target="_blank"
+                      class="fab fa-instagram"
+                    ></a>
+                  </li>
+                </ul>
+              </div>
             </div>
+          </section>
+          <section class="container sc3" id="footer">
+            <div class="row">
+              <a class="btn7" href="#about">Return to Top</a>
+            </div>
+            <div class="row">
+              <p>Thank you for your time. &#169; 2021 Yukihide Takahashi</p>
+            </div>
+          </section>
         </div>
+      </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
