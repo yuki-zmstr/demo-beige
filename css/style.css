@@ -451,6 +451,7 @@ nav li span:hover:after {
     color: black;
     border: 2px solid pink;
     letter-spacing: 0px;
+    text-transform: none;
 }
 
 
